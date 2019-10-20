@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+      <head>
+          <title>Flask app</title>
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        </head>
+    <header>
+      <div class="container">
+        <h1 class="logo">Vyhledávání pro rodiče hendikepovaných dětí</h1>
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="{{ url_for('home') }}">Úvod</a></li>
+            <li><a href="{{ url_for('about') }}">O nás</a></li>
+            <li><a href="{{ url_for('skolky') }}">skolky</a></li>
+            <li><a href="{{ url_for('vyhledavani') }}">Vyhledavani</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+    <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </body>
+</html>
