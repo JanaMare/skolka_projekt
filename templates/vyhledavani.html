@@ -1,7 +1,342 @@
-{% extends "layout.html" %}
-{% block content %}
-  <div class="vyhledavani">
-    <h1>vyhledavani</h1>
-    <p>This website was built with Python via the Flask framework.</p>
-  </div>
-{% endblock %}
+{% extends "layout.html" %} {% block content %}
+<br />
+<div class="container">
+    <form method="POST">
+        <div class="jumbotron">
+            <header>
+                <h1>
+          Vyhledavani školok 
+        </h1>
+                <p>
+                    Na této stránce prosím zadejte parametry dítěte, které byste rádi umístili do náhradní rodiny.
+                </p>
+            </header>
+            <div class="form_heading">
+                <h5>Pro dítě potřebuji spíše</h5>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="adoptive_parents" name="approval_type_id" value="2" />
+                            <label class="custom-control-label" for="adoptive_parents">osvojitele</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="foster_parents" name="approval_type_id" value="1" />
+                            <label class="custom-control-label" for="foster_parents">pěstouny</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form_heading">
+                <h5>Právní situace dítěte</h5>
+                <div class="input-group inline">
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="legal_status_id" value="1" id="legal_status_1" />
+                            <label class="custom-control-label" for="legal_status_1">Dítě je právně volné.</label>
+                        </div>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="legal_status_id" value="2" id="legal_status_2" />
+                            <label class="custom-control-label" for="legal_status_2">Dítě bude právně volné.</label>
+                        </div>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="legal_status_id" value="3" id="legal_status_3" />
+                            <label class="custom-control-label" for="legal_status_3">
+                                Dítě není právně volné, možné poručnictví.</label>
+                        </div>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="legal_status_id" value="4" id="legal_status_4" />
+                            <label class="custom-control-label" for="legal_status_4">
+                                Dítě není právně volné.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form_heading">
+                <h5>Okres, ve kterém by ideálně dítě mělo být umístěno</h5>
+                <div class="form-row col-md-12">
+                    <div class="form-group">
+                        <label for="district">Pokud potřebujete dítě umístit v konkrétní lokalitě, vyberte prosím okres: </label>
+                        <select id="district" class="btn btn-info" name="district_id" required>
+                            <option value=" 78 "> Na místě nezáleží </option>
+                            <option value=" 1 "> Benešov (Středočeský kraj) </option>
+                            <option value=" 2 "> Beroun (Středočeský kraj) </option>
+                            <option value=" 3 "> Blansko (Jihomoravský kraj) </option>
+                            <option value=" 4 "> Brno-město (Jihomoravský kraj) </option>
+                            <option value=" 5 "> Brno-venkov (Jihomoravský kraj) </option>
+                            <option value=" 6 "> Bruntál (Moravskoslezský kraj) </option>
+                            <option value=" 7 "> Břeclav (Jihomoravský kraj) </option>
+                            <option value=" 8 "> Česká Lípa (Liberecký kraj) </option>
+                            <option value=" 9 "> České Budějovice (Jihočeský kraj) </option>
+                            <option value=" 10 "> Český Krumlov (Jihočeský kraj) </option>
+                            <option value=" 11 "> Děčín (Ústecký kraj) </option>
+                            <option value=" 12 "> Domažlice (Plzeňský kraj) </option>
+                            <option value=" 13 ">
+                                Frýdek-Místek (Moravskoslezský kraj)
+                            </option>
+                            <option value=" 14 "> Havlíčkův Brod (Kraj Vysočina) </option>
+                            <option value=" 15 "> Hodonín (Jihomoravský kraj) </option>
+                            <option value=" 16 ">
+                                Hradec Králové (Královéhradecký kraj)
+                            </option>
+                            <option value=" 17 "> Cheb (Karlovarský kraj) </option>
+                            <option value=" 18 "> Chomutov (Ústecký kraj) </option>
+                            <option value=" 19 "> Chrudim (Pardubický kraj) </option>
+                            <option value=" 20 ">
+                                Jablonec nad Nisou (Liberecký kraj)
+                            </option>
+                            <option value=" 21 "> Jeseník (Olomoucký kraj) </option>
+                            <option value=" 22 "> Jičín (Královéhradecký kraj) </option>
+                            <option value=" 23 "> Jihlava (Kraj Vysočina) </option>
+                            <option value=" 24 "> Jindřichův Hradec (Jihočeský kraj) </option>
+                            <option value=" 25 "> Karlovy Vary (Karlovarský kraj) </option>
+                            <option value=" 26 "> Karviná (Moravskoslezský kraj) </option>
+                            <option value=" 27 "> Kladno (Středočeský kraj) </option>
+                            <option value=" 28 "> Klatovy (Plzeňský kraj) </option>
+                            <option value=" 29 "> Kolín (Středočeský kraj) </option>
+                            <option value=" 30 "> Kroměříž (Zlínský kraj) </option>
+                            <option value=" 31 "> Kutná Hora (Středočeský kraj) </option>
+                            <option value=" 32 "> Liberec (Liberecký kraj) </option>
+                            <option value=" 33 "> Litoměřice (Ústecký kraj) </option>
+                            <option value=" 34 "> Louny (Ústecký kraj) </option>
+                            <option value=" 35 "> Mělník (Středočeský kraj) </option>
+                            <option value=" 36 "> Mladá Boleslav (Středočeský kraj) </option>
+                            <option value=" 37 "> Most (Ústecký kraj) </option>
+                            <option value=" 38 "> Náchod (Královéhradecký kraj) </option>
+                            <option value=" 39 "> Nový Jičín (Moravskoslezský kraj) </option>
+                            <option value=" 40 "> Nymburk (Středočeský kraj) </option>
+                            <option value=" 41 "> Olomouc (Olomoucký kraj) </option>
+                            <option value=" 42 "> Opava (Moravskoslezský kraj) </option>
+                            <option value=" 43 ">
+                                Ostrava-město (Moravskoslezský kraj)
+                            </option>
+                            <option value=" 44 "> Pardubice (Pardubický kraj) </option>
+                            <option value=" 45 "> Pelhřimov (Kraj Vysočina) </option>
+                            <option value=" 46 "> Písek (Jihočeský kraj) </option>
+                            <option value=" 47 "> Plzeň-jih (Plzeňský kraj) </option>
+                            <option value=" 48 "> Plzeň-město (Plzeňský kraj) </option>
+                            <option value=" 49 "> Plzeň-sever (Plzeňský kraj) </option>
+                            <option value=" 50 "> Praha (Hlavní město Praha) </option>
+                            <option value=" 51 "> Praha-východ (Středočeský kraj) </option>
+                            <option value=" 52 "> Praha-západ (Středočeský kraj) </option>
+                            <option value=" 53 "> Prachatice (Jihočeský kraj) </option>
+                            <option value=" 54 "> Prostějov (Olomoucký kraj) </option>
+                            <option value=" 55 "> Přerov (Olomoucký kraj) </option>
+                            <option value=" 56 "> Příbram (Středočeský kraj) </option>
+                            <option value=" 57 "> Rakovník (Středočeský kraj) </option>
+                            <option value=" 58 "> Rokycany (Plzeňský kraj) </option>
+                            <option value=" 59 ">
+                                Rychnov nad Kněžnou (Královéhradecký kraj)
+                            </option>
+                            <option value=" 60 "> Semily (Liberecký kraj) </option>
+                            <option value=" 61 "> Sokolov (Karlovarský kraj) </option>
+                            <option value=" 62 "> Strakonice (Jihočeský kraj) </option>
+                            <option value=" 63 "> Svitavy (Pardubický kraj) </option>
+                            <option value=" 64 "> Šumperk (Olomoucký kraj) </option>
+                            <option value=" 65 "> Tachov (Plzeňský kraj) </option>
+                            <option value=" 66 "> Tábor (Jihočeský kraj) </option>
+                            <option value=" 67 "> Teplice (Ústecký kraj) </option>
+                            <option value=" 68 "> Trutnov (Královéhradecký kraj) </option>
+                            <option value=" 69 "> Třebíč (Kraj Vysočina) </option>
+                            <option value=" 70 "> Uherské Hradiště (Zlínský kraj) </option>
+                            <option value=" 71 "> Ústí nad Labem (Ústecký kraj) </option>
+                            <option value=" 72 "> Ústí nad Orlicí (Pardubický kraj) </option>
+                            <option value=" 73 "> Vsetín (Zlínský kraj) </option>
+                            <option value=" 74 "> Vyškov (Jihomoravský kraj) </option>
+                            <option value=" 75 "> Zlín (Zlínský kraj) </option>
+                            <option value=" 76 "> Znojmo (Jihomoravský kraj) </option>
+                            <option value=" 77 "> Žďár nad Sázavou (Kraj Vysočina) </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form_heading">
+                <h5>Věk dítěte</h5>
+                <div class="input-group inline">
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="child_age" value="1" id="child_age_1" />
+                            <label class="custom-control-label" for="child_age_1">Kojenec</label>
+                        </div>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="child_age" value="2" id="child_age_2" />
+                            <label class="custom-control-label" for="child_age_2">Batole</label>
+                        </div>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="child_age" value="3" id="child_age_3" />
+                            <label class="custom-control-label" for="child_age_3">Předškolák</label>
+                        </div>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="child_age" value="4" id="child_age_4" />
+                            <label class="custom-control-label" for="child_age_4">Nižší školní věk</label>
+                        </div>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" name="child_age" value="5" id="child_age_5" />
+                            <label class="custom-control-label" for="child_age_5">Vyšší školní věk</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_heading">
+                    <h5>Pohlaví dítěte</h5>
+                    <div class="input-group inline">
+                        <div class="input-group-prepend">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="expectation_sex_id" value="2" id="expectation_sex_id_girl" />
+                                <label class="custom-control-label" for="expectation_sex_id_girl">Holka</label>
+                            </div>
+                        </div>
+                        <div class="input-group-prepend">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="expectation_sex_id" value="1" id="expectation_sex_id_boy" />
+                                <label class="custom-control-label" for="expectation_sex_id_boy">Kluk</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_heading">
+                    <h5>
+              Počet dětí, které je potřeba umístit najednou (sourozenecká skupina)
+            </h5>
+                    <div class="input-group inline">
+                        <div class="input-group-prepend">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="siblings" value="1" id="siblings_1" />
+                                <label class="custom-control-label" for="siblings_1">Jednotlivec</label>
+                            </div>
+                        </div>
+                        <div class="input-group-prepend">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="siblings" value="2" id="siblings_2" />
+                                <label class="custom-control-label" for="siblings_2">Dvojčata</label>
+                            </div>
+                        </div>
+                        <div class="input-group-prepend">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="siblings" value="3" id="siblings_3" />
+                                <label class="custom-control-label" for="siblings_3">Dva sourozenci</label>
+                            </div>
+                        </div>
+                        <div class="input-group-prepend">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="siblings" value="4" id="siblings_4" />
+                                <label class="custom-control-label" for="siblings_4">Více sourozenců</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_heading">
+                        <h5>Postižení a jiná omezení dítěte</h5>
+                        <div class="input-group inline">
+                            <label>Fyzické nebo smyslové postižení</label>
+                            <div class="input-group-prepend">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="physical_handicap" value="1" id="physical_handicap_id_none" />
+                                    <label class="custom-control-label" for="physical_handicap_id_none">Žádné/malé</label>
+                                </div>
+                            </div>
+                            <div class="input-group-prepend">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="physical_handicap" value="2" id="physical_handicap_id_some" />
+                                    <label class="custom-control-label" for="physical_handicap_id_some">Střední/závažné</label>
+                                </div>
+                            </div>
+                            <label>Mentální postižení</label>
+                            <div class="input-group-prepend">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="mental_handicap_id" value="1" id="mental_handicap_id_none" />
+                                    <label class="custom-control-label" for="mental_handicap_id_none">Žádné/malé</label>
+                                </div>
+                            </div>
+                            <div class="input-group-prepend">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="mental_handicap_id" value="2" id="mental_handicap_id_some" />
+                                    <label class="custom-control-label" for="mental_handicap_id_some">Střední/závažné</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_heading">
+                            <h5>Etnikum (Kulturní identita)</h5>
+                            <div class="input-group inline">
+                                <div class="input-group-prepend">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" name="ethnicity" value="1" id="ethnicity_1" />
+                                        <label class="custom-control-label" for="ethnicity_1">Majoritní etnikum</label>
+                                    </div>
+                                </div>
+                                <div class="input-group-prepend">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" name="ethnicity" value="2" id="ethnicity_2" />
+                                        <label class="custom-control-label" for="ethnicity_2">Částečně minoritní etnikum</label>
+                                    </div>
+                                </div>
+                                <div class="input-group-prepend">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" name="ethnicity" value="3" id="ethnicity_3" />
+                                        <label class="custom-control-label" for="ethnicity_3">Majoritní etnikum, otec neznámý</label>
+                                    </div>
+                                </div>
+                                <div class="input-group-prepend">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" name="ethnicity" value="4" id="ethnicity_4" />
+                                        <label class="custom-control-label" for="ethnicity_4">
+                                            Minoritní etnikum</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_heading">
+                        <h5>Anamnéza dítěte - důležité věci z historie dítěte</h5>
+                        <div class="checkbox-group" required>
+                                <div class="input-group inline">
+                                    <div class="custom-control form-check-inline custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="expectation_anamnesis_id" value="1" id="expectation_anamnesis_id_1">
+                                        <label class="custom-control-label" for="expectation_anamnesis_id_1">Nadužívání alkoholu u biologické matky</label>
+                                    </div>
+                                    <div class="custom-control form-check-inline custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="expectation_anamnesis_id" value="2" id="expectation_anamnesis_id_2">
+                                        <label class="custom-control-label" for="expectation_anamnesis_id_2">Užívání drog biologickou matkou</label>
+                                    </div>
+                                    <div class="custom-control form-check-inline custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="expectation_anamnesis_id" value="3" id="expectation_anamnesis_id_3">
+                                        <label class="custom-control-label" for="expectation_anamnesis_id_3">Dítě strávilo více než rok v ústavním zařízení</label>
+                                    </div>
+                                    <div class="custom-control form-check-inline custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="expectation_anamnesis_id" value="4" id="expectation_anamnesis_id_4">
+                                        <label class="custom-control-label" for="expectation_anamnesis_id_4">V biologické rodině dítěte se vyskytuje psychiatrické onemocnění</label>
+                                    </div>
+                                    <div class="custom-control form-check-inline custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="expectation_anamnesis_id" value="5" id="expectation_anamnesis_id_5">
+                                        <label class="custom-control-label" for="expectation_anamnesis_id_5">V biologické rodině dítěte se vyskytuje metabolické onemocnění</label>
+                                    </div>
+                                    <div class="custom-control form-check-inline custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="expectation_anamnesis_id" value="6" id="expectation_anamnesis_id_6">
+                                        <label class="custom-control-label" for="expectation_anamnesis_id_6">Rodiče dítěte jsou spíše simplexní.</label>
+                                    </div>
+                                    <div class="custom-control form-check-inline custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" name="expectation_anamnesis_id" value="7" id="expectation_anamnesis_id_7">
+                                        <label class="custom-control-label" for="expectation_anamnesis_id_7">O rodině dítěte není nic známo, dítě bylo nalezeno v babyboxu</label>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <input class="btn btn-info btn-lg btn-block" type="submit" value="Vyhledat" />
+        </div>
+    </form>
+</div>
+<br /> {% endblock %}
