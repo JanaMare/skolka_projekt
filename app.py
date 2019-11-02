@@ -14,7 +14,7 @@ def about():
     return render_template('about.html')
 
 @app.route('/ranapece/')
-def about():
+def ranapece():
     return render_template('ranapece.html')
 
 @app.route('/skolky/')
