@@ -1,7 +1,9 @@
 from flask import Flask, render_template
 from databaza import get_activities
 import databaza
+
 app = Flask(__name__)
+
 @app.route('/')
 def home():
     print(get_activities())
@@ -10,6 +12,10 @@ def home():
 @app.route('/about/')
 def about():
     return render_template('about.html')
+
+@app.route('/ranapece/')
+def about():
+    return render_template('ranapece.html')
 
 @app.route('/skolky/')
 def skolky():
