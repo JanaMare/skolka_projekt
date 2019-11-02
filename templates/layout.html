@@ -3,16 +3,18 @@
   <body>
       <head>
           <title>Flask app</title>
-          <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+          <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
         </head>
     <header>
       <div class="container">
-        <h1 class="logo">Vyhledávání pro rodiče hendikepovaných dětí</h1>
+        <h1 class="logo">Portál pro rodiče dětí se speciálními potřebami</h1>
         <strong><nav>
           <ul class="menu">
             <li><a href="{{ url_for('home') }}">Úvod</a></li>
-            <li><a href="{{ url_for('about') }}">O nás</a></li>
-            <li><a href="{{ url_for('skolky') }}">skolky</a></li>
+            <li><a href="{{ url_for('skolky') }}">Školky</a></li>
+            <li><a href="{{ url_for('about') }}">Raná péče</a></li>
+            
             <li><a href="{{ url_for('vyhledavani') }}">Vyhledavani</a></li>
           </ul>
         </nav></strong>
