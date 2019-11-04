@@ -1,0 +1,38 @@
+{% extends "layout.html" %} {% block content %}
+<br />
+<div class="jumbotron">
+    <header>
+<h1>
+    Špeciálne školky ktoré máme v databáze
+  </h1>
+      <p>
+          Na této stránce si můžete prohlédnout tabulku se všemi informacemi o všech náhradních rodinách, případně 
+      </p>
+      <form method="GET">
+          <table class="table table-hover">
+              <thead>
+                  <tr>
+                      <th scope="col">id</th>
+                      <th scope="col">nazev</th>
+                      <th scope="col">typ postizeni</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  {% for x in expectation_table %}
+                  <tr>
+                          <td>{{ id }}</td>
+                          <td>{{ id_skolky }}</td>
+                          <td>{{ nazev }}</td>
+                          <td>{{ typ_postizeni }}</td>
+                          <td>{{ x.result }}0%</td>
+                          <td><a href="{{ url_for('skolky') }}">Klikněte sem</a></td>
+                  </tr>
+                  {% endfor %}
+
+              </tbody>
+          </table>
+      </form>
+      <br />
+  </header>
+</div>
+{% endblock %}
