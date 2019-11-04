@@ -1,7 +1,7 @@
 #importuju knihovnu pro práci s PostgreSQL
 import psycopg2
 import psycopg2.extras
-#knihovna na interakci s operačním systémem
+
 import os
 from flask import g,flash, request
 import datetime
@@ -34,13 +34,37 @@ def get_activities():
     return activities
 
 def tabulka_skolky():
-
     sql = """SELECT * 
-                    FROM public.skolky """
+                 FROM public.skolky """
     conn = get_db()
     cur = conn.cursor()
     cur.execute(sql)
     family_table = cur.fetchall()
     return family_table
+
+def skolky_vyhladavanie(id, id_skolky, nazev, typ_postizeni):
+    sql = """
+    SELECT 
+    skolky_postizeni.id AS postizeni,
+    skolky.nazev AS nazov,
+    skolky.id AS id_skolky,
+    skolky.typ_postizeni AS typ_postizeni
+    from public.skolky
+    left join public.skolky_postizeni on skolky.id_skolky=skolky_postizeni.id_skolky
+    """
+    conn = get_db()
+    try:
+        cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
+        cur.execute(sql, {"id": id, 
+                        "id_skolky": id_skolky,
+                        "nazev": nazev ,
+                        "typ_postizeni": typ_postizeni ,
+                        })
+        expectation_table = cur.fetchall()
+        print(expectation_table)
+        return expectation_table
+    finally:
+        if conn is not None:
+            conn.close()
 
 

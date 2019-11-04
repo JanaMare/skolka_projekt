@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <body>
       <head>
-          <title>Flask app</title>
+          <title>Vyhladávač pro rodiče</title>
           <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
           <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
         </head>
@@ -14,8 +15,6 @@
             <li><a href="{{ url_for('home') }}">Úvod</a></li>
             <li><a href="{{ url_for('skolky') }}">Školky</a></li>
             <li><a href="{{ url_for('ranapece') }}">Raná péče</a></li>
-            
-            <li><a href="{{ url_for('vyhledavani') }}">Vyhledavani</a></li>
             <li><a href="{{ url_for('tabulka_skolky') }}">tabulka_skolky</a></li>
           </ul>
         </nav></strong>
