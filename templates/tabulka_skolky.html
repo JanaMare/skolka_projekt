@@ -1,29 +1,17 @@
 {% extends "layout.html" %} {% block content %}
 <br />
-<div class="jumbotron">
     <header>
         <h1>
       Tabulka špecialnych školok na územi Českej republiky
     </h1>
-        <p>
-            
-        </p>
         <form method="GET">
-            <table class="table table-hover">
+            <table class="table table-hover", table style="width:100%">
                 <thead>
-                    <tr>
-                        <th scope="col">Id_Skolky</th>
+                    <tr aligin="center">
                         <th scope="col">nazev</th>
                         <th scope="col">ulice</th>
                         <th scope="col">mesto</th>
                         <th scope="col">pst</th>
-                        <th scope="col">kraj</th>
-                        <th scope="col">lat</th>
-                        <th scope="col">lng</th>
-                        <th scope="col">tag</th>
-                        <th scope="col">url1</th>
-                        <th scope="col">typ</th>
-                        <th scope="col">vek</th>
                         <th scope="col">typ_postizeni</th>
                         <th scope="col">mail</th>
                         <th scope="col">web</th>
@@ -32,19 +20,11 @@
                 </thead>
                 <tbody>
                     {% for x in expectation_table %}
-                    <tr>
-                            <td>{{ x.id_skolky }}</td>
+                    <tr aligin="center"></tr>> 
                             <td>{{ x.nazev }}</td>
                             <td>{{ x.ulice}}</td>
                             <td>{{ x.mesto }}</td>
                             <td>{{ x.psc }}</td>
-                            <td>{{ x.kraj }}</td>
-                            <td>{{ x.lat}}</td>
-                            <td>{{ x.lng }}</td>
-                            <td>{{ x.tag }}</td>
-                            <td>{{ x.url }}</td>
-                            <td>{{ x.typ }}</td>
-                            <td>{{ x.vek }}</td>
                             <td>{{ x.typ_postizeni }}</td> 
                             <td>{{ x.mail }}</td> 
                             <td>{{ x.web }}</td>
@@ -55,7 +35,7 @@
                 </tbody>
             </table>
         </form>
-        <br />
+        <br/>
     </header>
 </div>
 {% endblock %}
