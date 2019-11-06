@@ -20,13 +20,79 @@ def skolky():
 @app.route('/skolky/', methods=['POST'])
 def skolky_post():
  if request.method == 'POST':
-    id = request.form.get("id")
-    id_skolky= request.form.get("id_skolky")
     nazev= request.form.get("nazev")
-    typ_postizeni= request.form.get("typ_postizeni")
     mesto= request.form.get("mesto")
     ulice= request.form.get("ulice")
-    expectation_table = databaza.skolky_vyhladavanie(id, id_skolky, nazev, typ_postizeni, mesto, ulice)
+    postizeni = []
+    if "mentalni" in request.form:
+      postizeni.append("mentalni")
+      postizeni.append("mentálně")
+      postizeni.append("mentalnim")
+      postizeni.append("mentálním postižením")
+      postizeni.append("mentalne")
+      postizeni.append("downuv syndrom")
+
+    if "zrakove" in request.form:
+      postizeni.append("zrakovým")
+      postizeni.append("zrakove postizeni")
+      postizeni.append("zrakove")
+      postizeni.append("smyslově")
+      postizeni.append("logopedicke zrakove")
+      postizeni.append("smyslove postizeni")
+      postizeni.append("smyslove")
+      postizeni.append("dualni senzoricke")
+    if "sluchove" in request.form:
+      postizeni.append("sluchove")
+      postizeni.append("smyslově")
+      postizeni.append("sluchove postizení")
+      postizeni.append("sluchovým")
+      postizeni.append("smyslove postizeni")
+      postizeni.append("smyslove")
+      postizeni.append("dualni senzoricke")
+
+    if "recove" in request.form:
+      postizeni.append("logopedicke")
+      postizeni.append("logopedicke zrakove")
+      postizeni.append("komunikacne")
+      postizeni.append("kom")
+      postizeni.append("vady reči")
+      postizeni.append("vady reci")
+      postizeni.append("komunikacni")
+      postizeni.append("recove")
+      
+    if "telesne" in request.form:
+      postizeni.append("telesne")
+      postizeni.append("tele")
+      postizeni.append("telesne kombinovane")
+      postizeni.append("tělesne")
+      postizeni.append("teslenim")
+      postizeni.append("tělesným")
+      postizeni.append("pohybove") 
+
+    if "kombinovane" in request.form:
+      postizeni.append("kombinovane")
+      postizeni.append("s vice vadami")
+      postizeni.append("kobminovane")
+      postizeni.append("vice vad")
+      postizeni.append("s vice vadami")
+      postizeni.append("telesne kombinovane")
+
+    if "autistickeho" in request.form:
+      postizeni.append("autistismus")
+      postizeni.append("kombinovaným postižením a děti s poruchami autistického spektra")
+      postizeni.append("autismem")
+      postizeni.append("autisticke")
+      postizeni.append("autistickeho spektra")
+      postizeni.append("autisticke")
+      postizeni.append("poruchy autistickeho spektra")
+
+    if "poruchauceni" in request.form:
+      postizeni.append("porucha uceni") 
+      postizeni.append("adhd")
+      postizeni.append("snizenim rozumovymi schopnostami")
+      postizeni.append("hyperaktivita")
+
+    expectation_table = databaza.skolky_vyhladavanie(nazev, postizeni, mesto, ulice)
     print(expectation_table)
     return render_template("skolky_search.html",
     expectation_table=expectation_table
