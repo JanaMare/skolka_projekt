@@ -1,7 +1,8 @@
 {% extends "layout.html" %}
 {% block content %}
   <div class="skolky">
-    <form method="POST">
+    <form method="POST" action="{{url_for('skolky_post')}}">
+
       <div class='jumbotron'>
     <h1>Školky</h1>
 
@@ -43,7 +44,7 @@
             </div>
     </div>
     <div>
-    <button type="button" class="btn btn-outline-secondary" input type="submit" >Filtrovat</button>
+    <button class="btn btn-outline-secondary" type="submit" value="search">Filtrovat</button>
   </form>
     </div>
   </div>

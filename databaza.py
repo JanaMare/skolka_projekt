@@ -42,24 +42,22 @@ def tabulka_skolky():
     family_table = cur.fetchall()
     return family_table
 
-def skolky_vyhladavanie(id, id_skolky, nazev, typ_postizeni):
+def skolky_vyhladavanie(id, id_skolky, nazev, typ_postizeni, mesto, ulice):
     sql = """
     SELECT 
-    skolky_postizeni.id AS postizeni,
-    skolky.nazev AS nazov,
-    skolky.id AS id_skolky,
-    skolky.typ_postizeni AS typ_postizeni
+    skolky_postizeni.id_typ AS postizeni,
+    skolky.nazev AS nazev,
+    skolky.id_skolky AS id_skolky,
+    skolky.typ_postizeni AS typ_postizeni,
+    skolky.mesto, 
+    skolky.ulice
     from public.skolky
     left join public.skolky_postizeni on skolky.id_skolky=skolky_postizeni.id_skolky
     """
     conn = get_db()
     try:
         cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
-        cur.execute(sql, {"id": id, 
-                        "id_skolky": id_skolky,
-                        "nazev": nazev ,
-                        "typ_postizeni": typ_postizeni ,
-                        })
+        cur.execute(sql)
         expectation_table = cur.fetchall()
         print(expectation_table)
         return expectation_table
