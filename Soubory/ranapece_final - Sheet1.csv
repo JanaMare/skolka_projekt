@@ -1,21 +1,21 @@
-kategorie,zarizeni,nazev_poskytovatele,adresa_poskytovatele,ico,nazev_zarizeni_poskytovatele,vedouci_zarizeni,adresa_souradnice,adresa_zarizeni_poskytovatele,datum_sluzba_od,forma_poskytovani_soc_sluz,cilova_skupina_klientu,vekova_kategorie,pocet_luzek,provozni_doba,kontakty,latitude,longitude
-raná péče,Raná péče (6431660),"AlFi, z.s.","Koblovská 257/134, Petřkovice, 725 29 Ostrava 29",2801426,Raná péče pro rodiny s dětmi s PAS,Mgr. Gabriela Mariánková,"Brandlova 1267/6, Moravská Ostrava, 702 00","Brandlova 1267/6, Moravská Ostrava, 702 00 Ostrava 2",1.4.2015,ambulantní,"osoby se zdravotním postižením
+zarizeni;nazev_poskytovatele;adresa_poskytovatele;ico;nazev_zarizeni_poskytovatele;vedouci_zarizeni;adresa_souradnice;adresa_zarizeni_poskytovatele;datum_sluzba_od;forma_poskytovani_soc_sluz;cilova_skupina_klientu;vekova_kategorie;pocet_luzek;provozni_doba;kontakty;latitude;longitude
+Raná péče (6431660);AlFi, z.s.;Koblovská 257/134, Petřkovice, 725 29 Ostrava 29;2801426;Raná péče pro rodiny s dětmi s PAS;Mgr. Gabriela Mariánková;Brandlova 1267/6, Moravská Ostrava, 702 00;Brandlova 1267/6, Moravská Ostrava, 702 00 Ostrava 2;1.4.2015;ambulantní;"osoby se zdravotním postižením
 osoby s poruchou autistického spektra
 rodiny s dítětem/dětmi
-rodiny s dětmi s poruchou autistického spektra",děti předškolního věku (1 - 7 let),počet klientů - 2,"pondělí:
+rodiny s dětmi s poruchou autistického spektra";děti předškolního věku (1 - 7 let);počet klientů - 2;"pondělí:
 úterý:
 středa:
 8:00 - 15:00 - po telefonické domluvě
 čtvrtek:
 pátek:
 sobota:
-neděle:","[‘603337641', 'info@alfi-ostrava.cz', 'http://www.alfi-ostrava.cz']",49.8329102,18.2848826
-raná péče,Raná péče (3861284),"APLA Jižní Čechy, z.ú.","Farského 887/17, Tábor, 390 02 Tábor 2",28552288,Raná péče APLA Jižní Čechy,"Mgr. Petra Marešová, DiS.","Jírovcova 1339/43, České Budějovice 3, 370 01","Jírovcova 1339/43, České Budějovice 3, 370 01 České Budějovice 1",1.10.2015,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";[‘603337641', 'info@alfi-ostrava.cz', 'http://www.alfi-ostrava.cz'];49.8329102;18.2848826
+Raná péče (3861284);APLA Jižní Čechy, z.ú.;Farského 887/17, Tábor, 390 02 Tábor 2;28552288;Raná péče APLA Jižní Čechy;Mgr. Petra Marešová, DiS.;Jírovcova 1339/43, České Budějovice 3, 370 01;Jírovcova 1339/43, České Budějovice 3, 370 01 České Budějovice 1;1.10.2015;ambulantní;"osoby s jiným zdravotním postižením
 Děti do 7 let věku, u nichž je podezření či je již diagnostikována porucha autistického spektra (dětský autismus, atypický autismus, Rettův syndrom, Aspergerův syndrom, dezintegrační poruchy v dětství).
 osoby se zdravotním postižením
 rodiny s dítětem/dětmi
-Rodiče dětí do 7 let věku, u nichž je podezření či je již diagnostikována porucha autistického spektra (dětský autismus, atypický autismus, Rettův syndrom, Aspergerův syndrom, dezintegrační poruchy v dětství).",děti předškolního věku (1 - 7 let),"počet klientů - 2
-jedná se o maximální okamžitou kapacitu v pondělí na pracovišti v ČB, kdy může být služba poskytnuta v daný okamžik 2 klientům (dětem do 7 let věku). V úterý na pracovišti v ČB a na pracovišti v Táboře je maximální okamžitá kapacita 1 klient (dítě do 7 let věku). Při setkávání rodin rané péče je to 6 klientů či rodin v daný okamžik.","pondělí:
+Rodiče dětí do 7 let věku, u nichž je podezření či je již diagnostikována porucha autistického spektra (dětský autismus, atypický autismus, Rettův syndrom, Aspergerův syndrom, dezintegrační poruchy v dětství).";děti předškolního věku (1 - 7 let);"počet klientů - 2
+jedná se o maximální okamžitou kapacitu v pondělí na pracovišti v ČB, kdy může být služba poskytnuta v daný okamžik 2 klientům (dětem do 7 let věku). V úterý na pracovišti v ČB a na pracovišti v Táboře je maximální okamžitá kapacita 1 klient (dítě do 7 let věku). Při setkávání rodin rané péče je to 6 klientů či rodin v daný okamžik.";"pondělí:
 9:00 - 15:00 - pracoviště České Budějovice
 úterý:
 9:00 - 15:00 - pracoviště Tábor, 9:00 - 15:00 - pracoviště České Budějovice
@@ -23,11 +23,11 @@ středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['608666168‘, 'info@aplajc.cz', 'www.aplajc.cz' ]",48.9818075,14.477319
-raná péče,Raná péče (9794962),"Arpida, centrum pro rehabilitaci osob se zdravotním postižením, z.ú.","U Hvízdala 1402/9, České Budějovice 2, 370 11 České Budějovice 11",65053079,"Arpida, centrum pro rehabilitaci osob se zdravotním postižením, z.ú.",neuveden,"U Hvízdala 1402/9, České Budějovice 2, 370 11 ","U Hvízdala 1402/9, České Budějovice 2, 370 11 České Budějovice 11",1.1.2008,ambulantní,"osoby s kombinovaným postižením
+neděle:";['608666168‘, 'info@aplajc.cz', 'www.aplajc.cz' ];48.9818075;14.477319
+Raná péče (9794962);Arpida, centrum pro rehabilitaci osob se zdravotním postižením, z.ú.;U Hvízdala 1402/9, České Budějovice 2, 370 11 České Budějovice 11;65053079;Arpida, centrum pro rehabilitaci osob se zdravotním postižením, z.ú.;neuveden;U Hvízdala 1402/9, České Budějovice 2, 370 11;U Hvízdala 1402/9, České Budějovice 2, 370 11 České Budějovice 11;1.1.2008;ambulantní;"osoby s kombinovaným postižením
 osoby s tělesným postižením
-rodiny s dítětem/dětmi",děti do 7 let,"počet klientů - 4
-- jedná se o okamžitou kapacitu/klient=rodina","pondělí:
+rodiny s dítětem/dětmi";děti do 7 let;"počet klientů - 4
+- jedná se o okamžitou kapacitu/klient=rodina";"pondělí:
 8:00 - 12:00
 úterý:
 8:00 - 12:00
@@ -38,9 +38,9 @@ středa:
 pátek:
 8:00 - 12:00
 sobota:
-neděle:","[‘385777011’, 'ranapece@arpida.cz', 'http://www.arpida.cz']",48.9981504,14.4444047
-raná péče,Raná péče (2236030),"Autis Centrum, o.p.s.","Plzeňská 2219/44, České Budějovice 3, 370 04 České Budějovice 4",2426374,"Autis Centrum, o.p.s.",neuveden,"Plzeňská 2219/44, České Budějovice 3, 370 04 ","Plzeňská 2219/44, České Budějovice 3, 370 04 České Budějovice 4",,"ambulantní, terénní","osoby se zdravotním postižením
-rodiny s dítětem/dětmi",děti kojeneckého věku ( do 1 roku) děti předškolního věku (1 - 7 let),počet klientů - 2,"pondělí:
+neděle:";[‘385777011’, 'ranapece@arpida.cz', 'http://www.arpida.cz'];48.9981504;14.4444047
+Raná péče (2236030);Autis Centrum, o.p.s.;Plzeňská 2219/44, České Budějovice 3, 370 04 České Budějovice 4;2426374;Autis Centrum, o.p.s.;neuveden;Plzeňská 2219/44, České Budějovice 3, 370 04;Plzeňská 2219/44, České Budějovice 3, 370 04 České Budějovice 4;;ambulantní, terénní;"osoby se zdravotním postižením
+rodiny s dítětem/dětmi";děti kojeneckého věku ( do 1 roku) děti předškolního věku (1 - 7 let);počet klientů - 2;"pondělí:
 7:30 - 16:00
 úterý:
 7:30 - 16:00
@@ -51,15 +51,15 @@ středa:
 pátek:
 7:30 - 16:00
 sobota:
-neděle:","['606046118', 'info@auticentrum.cz', 'www.auticentrum.cz']",48.9923178,14.4619938
-raná péče,Raná péče (7488093),Auxilium o.p.s.,"Hošťálková 428, 756 22 Hošťálková u Vsetína",2083825,Centrum Auxilium,Božena Mikulíková,"Nemocniční 945, Vsetín","Nemocniční 945, Vsetín, 755 01 Vsetín 1",1.1.2014,terénní,"osoby s jiným zdravotním postižením
+neděle:";['606046118', 'info@auticentrum.cz', 'www.auticentrum.cz'];48.9923178;14.4619938
+Raná péče (7488093);Auxilium o.p.s.;Hošťálková 428, 756 22 Hošťálková u Vsetína;2083825;Centrum Auxilium;Božena Mikulíková;Nemocniční 945, Vsetín;Nemocniční 945, Vsetín, 755 01 Vsetín 1;1.1.2014;terénní;"osoby s jiným zdravotním postižením
 (děti s poruchami autistického spektra a nerovnoměrným vývojem)
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 rodiny s dítětem/dětmi
-(s dětmi, jejichž vývoj je ohrožen zdravotním postižením nebo nerovnoměrným vývojem)",děti kojeneckého věku ( do 1 roku) děti předškolního věku (1 - 7 let),"počet klientů - 2
-40 aktivních smluv o péči Územní působnost: regiony měst Vsetín, Valašské Meziříčí, Rožnov pod Radhoštěm, v mimořádných situacích v regionu přilehlých oblastí Zlínského kraje","pondělí:
+(s dětmi, jejichž vývoj je ohrožen zdravotním postižením nebo nerovnoměrným vývojem)";děti kojeneckého věku ( do 1 roku) děti předškolního věku (1 - 7 let);"počet klientů - 2
+40 aktivních smluv o péči Územní působnost: regiony měst Vsetín, Valašské Meziříčí, Rožnov pod Radhoštěm, v mimořádných situacích v regionu přilehlých oblastí Zlínského kraje";"pondělí:
 8:00 - 18:00
 úterý:
 8:00 - 18:00
@@ -70,10 +70,10 @@ středa:
 pátek:
 8:00 - 18:00
 sobota:
-neděle:","['603823293', 'bozena.mikulikova@auxilium.cz', 'www.auxilium.cz']",49.3340211,17.9986027
-raná péče,Raná péče (3346325),"Centrum LIRA, z.ú.","Matoušova 406/20, Liberec III-Jeřáb, 460 07 Liberec 7",28731191,"Centrum LIRA, z. ú.",PaedDr. Alexandra Bečvářová,třída Edvarda Beneše 1549/34,"třída Edvarda Beneše 1549/34, Nový Hradec Králové, 500 12 Hradec Králové 12",1.1.2015,ambulantní,"rodiny s dítětem/dětmi
-Služba je poskytována rodinám s dětmi se zdravotním postižením nebo ohrožením vývoje v oblasti zrakové, mentální, pohybové, rodinám s dětmi s kombinovaným postižením a rodinám s dětmi s poruchou autistického spektra.","služba je poskytována rodinám s dětmi ve věku 0 - 7 let, bez ohledu na věk zákonných zástupců","počet klientů - 2
-Maximální okamžitá kapacita, 1 klient=1 rodina. U skupinových aktivit jemaximální kapacita vyšší.","pondělí:
+neděle:";['603823293', 'bozena.mikulikova@auxilium.cz', 'www.auxilium.cz'];49.3340211;17.9986027
+Raná péče (3346325);Centrum LIRA, z.ú.;Matoušova 406/20, Liberec III-Jeřáb, 460 07 Liberec 7;28731191;Centrum LIRA, z. ú.;PaedDr. Alexandra Bečvářová;třída Edvarda Beneše 1549/34;třída Edvarda Beneše 1549/34, Nový Hradec Králové, 500 12 Hradec Králové 12;1.1.2015;ambulantní;"rodiny s dítětem/dětmi
+Služba je poskytována rodinám s dětmi se zdravotním postižením nebo ohrožením vývoje v oblasti zrakové, mentální, pohybové, rodinám s dětmi s kombinovaným postižením a rodinám s dětmi s poruchou autistického spektra.";služba je poskytována rodinám s dětmi ve věku 0 - 7 let, bez ohledu na věk zákonných zástupců;"počet klientů - 2
+Maximální okamžitá kapacita, 1 klient=1 rodina. U skupinových aktivit jemaximální kapacita vyšší.";"pondělí:
 8:00 - 17:00 - dle dohody v uvedené době
 úterý:
 8:00 - 17:00 - dle dohody v uvedené době
@@ -84,10 +84,10 @@ středa:
 pátek:
 8:00 - 17:00 - dle dohody v uvedené době
 sobota:
-neděle:","['724400832', 'info@centrumlira.cz', 'www.centrumlira.cz']",50.1961717,15.8377313
-raná péče,Raná péče (3959325),"Centrum LIRA, z.ú.","Matoušova 406/20, Liberec III-Jeřáb, 460 07 Liberec 7",28731191,"Centrum LIRA, z. ú.",PaedDr. Alexandra Bečvářová,Matoušova 406/20,"Matoušova 406/20, Liberec III-Jeřáb, 460 07 Liberec 7",1.1.2007,ambulantní,"rodiny s dítětem/dětmi
-Služba je poskytována rodinám s dětmi se zrakovým, mentálním, pohybovým a kombinovaným postižením, poruchami autistického spektra nebo ohrožením vývoje.","služba je poskytována rodinám s dětmi ve věku 0 – 7 let, bez ohledu na věk zákonných zástupců","počet klientů - 4
-Maximální okamžitá kapacita, 1 klient=1 rodina. U skupinových aktivit jemaximální kapacita vyšší.","pondělí:
+neděle:";['724400832', 'info@centrumlira.cz', 'www.centrumlira.cz'];50.1961717;15.8377313
+Raná péče (3959325);Centrum LIRA, z.ú.;Matoušova 406/20, Liberec III-Jeřáb, 460 07 Liberec 7;28731191;Centrum LIRA, z. ú.;PaedDr. Alexandra Bečvářová;Matoušova 406/20;Matoušova 406/20, Liberec III-Jeřáb, 460 07 Liberec 7;1.1.2007;ambulantní;"rodiny s dítětem/dětmi
+Služba je poskytována rodinám s dětmi se zrakovým, mentálním, pohybovým a kombinovaným postižením, poruchami autistického spektra nebo ohrožením vývoje.";služba je poskytována rodinám s dětmi ve věku 0 – 7 let, bez ohledu na věk zákonných zástupců;"počet klientů - 4
+Maximální okamžitá kapacita, 1 klient=1 rodina. U skupinových aktivit jemaximální kapacita vyšší.";"pondělí:
 8:00 - 17:00
 úterý:
 8:00 - 17:00
@@ -98,28 +98,28 @@ středa:
 pátek:
 8:00 - 17:00
 sobota:
-neděle:","['724400832', 'info@centrumlira.cz', 'www.centrumlira.cz']",50.7644535,15.0480903
-raná péče,Raná péče (7118025),"Centrum pro dětský sluch Tamtam, o.p.s.","Hábova 1571/22, Praha 13-Stodůlky, 155 00 Praha 515",499811,Raná péče pro Moravu a Slezko,"Mgr. Anna Kučerová, Ph.D.","Jungmannova 25, Olomouc, 772 00","Jungmannova 25, Olomouc, 772 00 Olomouc 2",1.1.2005,ambulantní,"osoby se sluchovým postižením
-rodiny s dítětem/dětmi","Služba je poskytována rodinám s dětmi se sluchovým postižením ve věku 0-7let, bez ohledu na věk zákonných zástupců.",počet klientů - 1,"pondělí:
+neděle:";['724400832', 'info@centrumlira.cz', 'www.centrumlira.cz'];50.7644535;15.0480903
+Raná péče (7118025);Centrum pro dětský sluch Tamtam, o.p.s.;Hábova 1571/22, Praha 13-Stodůlky, 155 00 Praha 515;499811;Raná péče pro Moravu a Slezko;Mgr. Anna Kučerová, Ph.D.;Jungmannova 25, Olomouc, 772 00;Jungmannova 25, Olomouc, 772 00 Olomouc 2;1.1.2005;ambulantní;"osoby se sluchovým postižením
+rodiny s dítětem/dětmi";Služba je poskytována rodinám s dětmi se sluchovým postižením ve věku 0-7let, bez ohledu na věk zákonných zástupců.;počet klientů - 1;"pondělí:
 úterý:
 9:00 - 15:00 - a dále dle domluvy v rámci provozní doby terénní služby
 středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['739642677', 'ranapecemorava@detskysluch.cz', 'www.detskysluch.cz']",49.5898543,17.2713759
-raná péče,Raná péče (5002625),"Centrum pro dětský sluch Tamtam, o.p.s.","Hábova 1571/22, Praha 13-Stodůlky, 155 00 Praha 515",499811,Raná péče Čechy,Mgr. Martina Péčová,"Hábova 1571/22, Praha 13-Stodůlky, 155 00","Hábova 1571/22, Praha 13-Stodůlky, 155 00 Praha 515",1.1.2001,ambulantní,"osoby se sluchovým postižením
-rodiny s dítětem/dětmi","Služba je poskytována rodinám s dětmi se sluchovým postižením ve věku 0-7 let, bez ohledu na věk zákonných zástupců.",počet klientů - 2,"pondělí:
+neděle:";['739642677', 'ranapecemorava@detskysluch.cz', 'www.detskysluch.cz'];49.5898543;17.2713759
+Raná péče (5002625);Centrum pro dětský sluch Tamtam, o.p.s.;Hábova 1571/22, Praha 13-Stodůlky, 155 00 Praha 515;499811;Raná péče Čechy;Mgr. Martina Péčová;Hábova 1571/22, Praha 13-Stodůlky, 155 00;Hábova 1571/22, Praha 13-Stodůlky, 155 00 Praha 515;1.1.2001;ambulantní;"osoby se sluchovým postižením
+rodiny s dítětem/dětmi";Služba je poskytována rodinám s dětmi se sluchovým postižením ve věku 0-7 let, bez ohledu na věk zákonných zástupců.;počet klientů - 2;"pondělí:
 úterý:
 středa:
 čtvrtek:
 9:00 - 15:00 - a dále dle domluvy v rámci provozní doby terénní služby
 pátek:
 sobota:
-neděle:","['251510744', 'ranapececechy@detskysluch.cz', 'www.detskysluch.cz']",50.0461576,14.3117768
-raná péče,Raná péče (3477720),Centrum sociálních služeb Tloskov,"Tloskov 1, 257 56 Neveklov",640841,Centrum sociálních služeb Tloskov,"PhDr. Matěj Lipský, Ph.D.","Tloskov 1, 257 56 Neveklov","Tloskov 1, 257 56 Neveklov",1.1.2007,ambulantní,"osoby s mentálním postižením
-Podpora vývoje dítěte raného věku s ohroženým vývojem (opožděný vývoj), mentálním, tělesným či kombinovaným postižením a jeho rodiny. Služba není určena pro: • osoby závislé na omamných a psychotropních látkách • osoby patologicky závislé na alkoholu. Služba Rané péče je zaměřena na podporu rodiny a podporu vývoje dítěte v přirozeném prostředí.","Služba rané péče podle § 54 zákona č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů je poskytována formou terénní služby v přirozeném prostředí popř. doplněna ambulantní formou služby poskytovanou rodičům dítěte a dítěti ve věku od 0 do 7 let věku.","počet klientů - 16
-Smlouvy o službě rané péče jsou s uživateli a jejich zákonnými zástupci v daný okamžik uzavřeny maximálně pro 16 uživatelů","pondělí:
+neděle:";['251510744', 'ranapececechy@detskysluch.cz', 'www.detskysluch.cz'];50.0461576;14.3117768
+Raná péče (3477720);Centrum sociálních služeb Tloskov;Tloskov 1, 257 56 Neveklov;640841;Centrum sociálních služeb Tloskov;PhDr. Matěj Lipský, Ph.D.;Tloskov 1, 257 56 Neveklov;Tloskov 1, 257 56 Neveklov;1.1.2007;ambulantní;"osoby s mentálním postižením
+Podpora vývoje dítěte raného věku s ohroženým vývojem (opožděný vývoj), mentálním, tělesným či kombinovaným postižením a jeho rodiny. Služba není určena pro: • osoby závislé na omamných a psychotropních látkách • osoby patologicky závislé na alkoholu. Služba Rané péče je zaměřena na podporu rodiny a podporu vývoje dítěte v přirozeném prostředí.";Služba rané péče podle § 54 zákona č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů je poskytována formou terénní služby v přirozeném prostředí popř. doplněna ambulantní formou služby poskytovanou rodičům dítěte a dítěti ve věku od 0 do 7 let věku.;"počet klientů - 16
+Smlouvy o službě rané péče jsou s uživateli a jejich zákonnými zástupci v daný okamžik uzavřeny maximálně pro 16 uživatelů";"pondělí:
 8:00 - 15:00, 9:30 - 16:30 - pracoviště Benešov - každý sudý týden
 úterý:
 8:00 - 15:00
@@ -130,14 +130,14 @@ středa:
 pátek:
 8:00 - 15:00
 sobota:
-neděle:","['317740111', 'centrum@tloskov.cz', 'http://www.tloskov.cz']",49.7608806,14.5278453
-raná péče,Raná péče (5330519),"Demosthenes, o.p.s.","Mírová 2820/2, Severní Terasa, 400 11 Ústí nad Labem 11",25421018,"Demosthenes, o. p. s.",Mgr. Iryna Kovalčuková,"Mírová 2820/2, Severní Terasa","Mírová 2820/2, Severní Terasa, 400 11 Ústí nad Labem 11",1.1.2007,terénní,"osoby s chronickým onemocněním
+neděle:";['317740111', 'centrum@tloskov.cz', 'http://www.tloskov.cz'];49.7608806;14.5278453
+Raná péče (5330519);Demosthenes, o.p.s.;Mírová 2820/2, Severní Terasa, 400 11 Ústí nad Labem 11;25421018;Demosthenes, o. p. s.;Mgr. Iryna Kovalčuková;Mírová 2820/2, Severní Terasa;Mírová 2820/2, Severní Terasa, 400 11 Ústí nad Labem 11;1.1.2007;terénní;"osoby s chronickým onemocněním
 osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
-rodiny s dítětem/dětmi","Služba je poskytována rodinám s dětmi se zdravotním postižením nebo ohroženým vývojem (například rodinám s dětmi předčasně narozenými, dětem, kde doposud není stanoveno zdravotní postižení, ale jejichž vývoj není standardní), a to do 7 let věku dítěte.","počet klientů - 3
-Jedná se o maximální okamžitou kapacitu. Během časového intervalu poskytování služby lze službu poskytnout celkem 3 uživatelům (3 pracovníci = 3 klienti/rodiny).","pondělí:
+rodiny s dítětem/dětmi";Služba je poskytována rodinám s dětmi se zdravotním postižením nebo ohroženým vývojem (například rodinám s dětmi předčasně narozenými, dětem, kde doposud není stanoveno zdravotní postižení, ale jejichž vývoj není standardní), a to do 7 let věku dítěte.;"počet klientů - 3
+Jedná se o maximální okamžitou kapacitu. Během časového intervalu poskytování služby lze službu poskytnout celkem 3 uživatelům (3 pracovníci = 3 klienti/rodiny).";"pondělí:
 8:00 - 16:30 - dle předchozí domluvy lze službu poskytnout v čase od 8:00 do 18:00 hodin
 úterý:
 8:00 - 16:30 - dle předchozí domluvy lze službu poskytnout v čase od 8:00 do 18:00 hodin
@@ -148,10 +148,10 @@ středa:
 pátek:
 8:00 - 16:30 - dle předchozí domluvy lze službu poskytnout v čase od 8:00 do 18:00 hodin
 sobota:
-neděle:","['721238965', '411198977', 'iryna.kovalcukova@demosthenes.cz', 'www.demosthenes.cz']",50.6830922,14.0314481
-raná péče,Raná péče (3999956),Diakonie ČCE - středisko CESTA,"Na Stavidle 1266, Uherské Hradiště, 686 01 Uherské Hradiště 1",65267991,Diakonie ČCE - středisko CESTA,Bc. Zuzana Hoffmannová,"Na Stavidle 1266, Uherské Hradiště, 686 01","Na Stavidle 1266, Uherské Hradiště, 686 01 Uherské Hradiště 1",1.1.2009,ambulantní,"rodiny s dítětem/dětmi
-(dítě zdravotně postižené, nebo jehož vývoj je ohrožen v důsledku nepříznivého zdravotního stavu)",děti kojeneckého věku (do 1 roku); děti předškolního věku (1 - 7 let),"počet klientů - 1
-1 rodina - okamžitá kapacita","pondělí:
+neděle:";['721238965', '411198977', 'iryna.kovalcukova@demosthenes.cz', 'www.demosthenes.cz'];50.6830922;14.0314481
+Raná péče (3999956);Diakonie ČCE - středisko CESTA;Na Stavidle 1266, Uherské Hradiště, 686 01 Uherské Hradiště 1;65267991;Diakonie ČCE - středisko CESTA;Bc. Zuzana Hoffmannová;Na Stavidle 1266, Uherské Hradiště, 686 01;Na Stavidle 1266, Uherské Hradiště, 686 01 Uherské Hradiště 1;1.1.2009;ambulantní;"rodiny s dítětem/dětmi
+(dítě zdravotně postižené, nebo jehož vývoj je ohrožen v důsledku nepříznivého zdravotního stavu)";"děti kojeneckého věku (do 1 roku); děti předškolního věku (1 - 7 let)";"počet klientů - 1
+1 rodina - okamžitá kapacita";"pondělí:
 úterý:
 13:00 - 17:00
 středa:
@@ -159,13 +159,13 @@ středa:
 7:30 - 11:30
 pátek:
 sobota:
-neděle:","['737507915', 'rana.pece@strediskocesta.cz', 'http://strediskocesta.cz']",49.0702026,17.454915
-raná péče,Raná péče (6095107),Diakonie ČCE - středisko Praha,"Vlachova 1502/20, Praha 13-Stodůlky, 155 00 Praha 515",62931270,Raná péče - pracoviště Praha,PhDr. Kateřina Štinglová,"Machatého 683/10, Praha 5-Hlubočepy","Machatého 683/10, Praha 5-Hlubočepy, 152 00 Praha 52",1.1.2007,ambulantní,"osoby s kombinovaným postižením
+neděle:";['737507915', 'rana.pece@strediskocesta.cz', 'http://strediskocesta.cz'];49.0702026;17.454915
+Raná péče (6095107);Diakonie ČCE - středisko Praha;Vlachova 1502/20, Praha 13-Stodůlky, 155 00 Praha 515;62931270;Raná péče - pracoviště Praha;PhDr. Kateřina Štinglová;Machatého 683/10, Praha 5-Hlubočepy;Machatého 683/10, Praha 5-Hlubočepy, 152 00 Praha 52;1.1.2007;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 rodiny s dítětem/dětmi
-Raná péče je určena celé rodině s dítětem s mentálním/pohybovým/kombinovaným postižením, s opožděním psychomotorického vývoje, s poruchami autistického spektra od 0 do 7 let věku dítěte.",Upřesnění věkové kategorie : 0 - 7 let,"počet klientů - 1
-jedná se o okamžitou kapacitu. Podíl kapacit pro kraje, kde je služba poskytována v roce 2019: Hlavní město Praha 38,14%, Středočeský kraj - 29,92%, Plzeňský kraj - 17,38% (navýšení od 1. 1. 2019 o 1,0 úv. pp), Ústecký kraj - 14,56%. S platností k 1. 1. 2019 bude navýšena kapacita na 13 klientů.","pondělí:
+Raná péče je určena celé rodině s dítětem s mentálním/pohybovým/kombinovaným postižením, s opožděním psychomotorického vývoje, s poruchami autistického spektra od 0 do 7 let věku dítěte.";Upřesnění věkové kategorie : 0 - 7 let;"počet klientů - 1
+jedná se o okamžitou kapacitu. Podíl kapacit pro kraje, kde je služba poskytována v roce 2019: Hlavní město Praha 38,14%, Středočeský kraj - 29,92%, Plzeňský kraj - 17,38% (navýšení od 1. 1. 2019 o 1,0 úv. pp), Ústecký kraj - 14,56%. S platností k 1. 1. 2019 bude navýšena kapacita na 13 klientů.";"pondělí:
 9:00 - 14:00
 úterý:
 9:00 - 14:00
@@ -175,10 +175,10 @@ středa:
 9:00 - 14:00
 pátek:
 sobota:
-neděle:","['731633025‘, '235518392‘, 'info@rana-pece.cz', 'www.rana-pece.cz']",50.0330855,14.3762368
-raná péče,Raná péče (6447139),Diakonie ČCE - středisko Světlo ve Vrchlabí,"Komenského 616, Vrchlabí, 543 01 Vrchlabí 1",43464343,Pracoviště rané péče Diakonie ČCE - středisko Světlo ve Vrchlabí,Mgr. Marcela Sobotková,"Komenského 616, Vrchlabí, 543 01","Komenského 616, Vrchlabí, 543 01 Vrchlabí 1",1.1.2007,ambulantní,"rodiny s dítětem/dětmi
-Rodiny s dítětem raného věku (0-7 let) se zdravotním postižením (mentálním, pohybovým, kombinovaným, s poruchou autistického spektra nebo opožděným či ohroženým vývojem) do 60 km od Vrchlabí na území Královéhradeckého kraje a v ORP Jilemnice.",- děti do 7 let věku,"počet klientů - 4
-(maximální denní kapacita) Maximální počet uzavřených smluv 40.","pondělí:
+neděle:";['731633025‘, '235518392‘, 'info@rana-pece.cz', 'www.rana-pece.cz'];50.0330855;14.3762368
+Raná péče (6447139);Diakonie ČCE - středisko Světlo ve Vrchlabí;Komenského 616, Vrchlabí, 543 01 Vrchlabí 1;43464343;Pracoviště rané péče Diakonie ČCE - středisko Světlo ve Vrchlabí;Mgr. Marcela Sobotková;Komenského 616, Vrchlabí, 543 01;Komenského 616, Vrchlabí, 543 01 Vrchlabí 1;1.1.2007;ambulantní;"rodiny s dítětem/dětmi
+Rodiny s dítětem raného věku (0-7 let) se zdravotním postižením (mentálním, pohybovým, kombinovaným, s poruchou autistického spektra nebo opožděným či ohroženým vývojem) do 60 km od Vrchlabí na území Královéhradeckého kraje a v ORP Jilemnice.";- děti do 7 let věku;"počet klientů - 4
+(maximální denní kapacita) Maximální počet uzavřených smluv 40.";"pondělí:
 8:00 - 17:00 - dle předchozí domluvy
 úterý:
 8:00 - 17:00 - dle předchozí domluvy
@@ -189,13 +189,13 @@ středa:
 pátek:
 8:00 - 17:00 - dle předchozí domluvy
 sobota:
-neděle:","['499423566‘, '739244665‘, 'ranapece.svetlo@diakonie.cz', 'ranapece.svetlo@diakonie.cz']",50.6186888,15.6087184
-raná péče,Raná péče (9920262),Diecézní charita Brno,"třída Kpt. Jaroše 1928/9, Brno-střed, Černá Pole, 602 00 Brno 2",44990260,Raná péče Třebíč,Mgr. Jaroslav František Žák,"Vltavínská 1402, Horka-Domky, 674 01","Vltavínská 1402, Horka-Domky, 674 01",23.10.2017,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";['499423566‘, '739244665‘, 'ranapece.svetlo@diakonie.cz', 'ranapece.svetlo@diakonie.cz'];50.6186888;15.6087184
+Raná péče (9920262);Diecézní charita Brno;třída Kpt. Jaroše 1928/9, Brno-střed, Černá Pole, 602 00 Brno 2;44990260;Raná péče Třebíč;Mgr. Jaroslav František Žák;Vltavínská 1402, Horka-Domky, 674 01;Vltavínská 1402, Horka-Domky, 674 01;23.10.2017;ambulantní;"osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
-rodiny s dítětem/dětmi",Raná péče je poskytována dětem do 7 let věku.,"počet klientů - 71
-do 22.10.2017 61 klientů od 23.10.2017 66 klientů od nabytí právní moci rozhodnutí č.j. JMK 26632/2018 je počet klientů 71 Uživatelem služeb je celá rodina dítěte se zdravotním postižením nebo ohrožením ve vývoji. Uvedená kapacita je stanovená na období 1 měsíce.","pondělí:
+rodiny s dítětem/dětmi";Raná péče je poskytována dětem do 7 let věku.;"počet klientů - 71
+do 22.10.2017 61 klientů od 23.10.2017 66 klientů od nabytí právní moci rozhodnutí č.j. JMK 26632/2018 je počet klientů 71 Uživatelem služeb je celá rodina dítěte se zdravotním postižením nebo ohrožením ve vývoji. Uvedená kapacita je stanovená na období 1 měsíce.";"pondělí:
 7:00 - 17:00 - po telefonické domluvě
 úterý:
 7:00 - 17:00 - po telefonické domluvě
@@ -206,11 +206,10 @@ středa:
 pátek:
 7:00 - 17:00 - po telefonické domluvě
 sobota:
-neděle:","['606860551‘, '608808025‘, 'jaroslav.zak@trebic.charita.cz', 'http://www.trebic.charita.cz']",49.2055604,15.8796397
-raná péče,Raná péče (9306099),"DOTYK II, o.p.s.","Vídeňská 11/127, Brno-jih, Přízřenice, 619 00 Brno 19",29277817,DOTYK II - raná péče,Mgr. Josef Svoboda,"Vídeňská 11/127, Brno-jih, Přízřenice, 619 00","Vídeňská 11/127, Brno-jih, Přízřenice, 619 00
-",1.9.2013,ambulantní,"osoby se zdravotním postižením
-děti s poruchami autistického spektra",Služba je určena dětem do 7 let,"počet klientů - 53
-Jedná se o roční kapacitu.","pondělí:
+neděle:";['606860551‘, '608808025‘, 'jaroslav.zak@trebic.charita.cz', 'http://www.trebic.charita.cz'];49.2055604;15.8796397
+Raná péče (9306099);DOTYK II, o.p.s.;Vídeňská 11/127, Brno-jih, Přízřenice, 619 00 Brno 19;29277817;DOTYK II - raná péče;Mgr. Josef Svoboda;Vídeňská 11/127, Brno-jih, Přízřenice, 619 00;Vídeňská 11/127, Brno-jih, Přízřenice, 619 00;1.9.2013;ambulantní;"osoby se zdravotním postižením
+děti s poruchami autistického spektra";Služba je určena dětem do 7 let;"počet klientů - 53
+Jedná se o roční kapacitu.";"pondělí:
 9:00 - 16:00
 úterý:
 9:00 - 16:00
@@ -220,14 +219,14 @@ středa:
 9:00 - 16:00
 pátek:
 sobota:
-neděle:","['773098779‘, 'rana.pece@dotyk2.cz', 'www.dotyk2.cz']",49.1433858,16.6032898
-raná péče,Raná péče (7877605),"EDA cz, z.ú.","Filipova 2013/1, Praha 11-Chodov, 148 00 Praha 414",24743054,Raná péče EDA,Mgr. Jana Ježková,"Filipova 2013/1, Praha 11-Chodov, 148 00 ","Filipova 2013/1, Praha 11-Chodov, 148 00 Praha 414",3.1.2011,ambulantní,"osoby s kombinovaným postižením
+neděle:";['773098779‘, 'rana.pece@dotyk2.cz', 'www.dotyk2.cz'];49.1433858;16.6032898
+Raná péče (7877605);EDA cz, z.ú.;Filipova 2013/1, Praha 11-Chodov, 148 00 Praha 414;24743054;Raná péče EDA;Mgr. Jana Ježková;Filipova 2013/1, Praha 11-Chodov, 148 00;Filipova 2013/1, Praha 11-Chodov, 148 00 Praha 414;3.1.2011;ambulantní;"osoby s kombinovaným postižením
 Dítě klientské rodiny má zrakové a další postižení.
 osoby se zrakovým postižením
 Dítě klientské rodiny má postižení zraku.
 rodiny s dítětem/dětmi
-Dítě klientské rodiny má zrakové nebo kombinované postižení a je ve věku od narození do 7 let.",Sociální služba raná péče je určena pro celou rodinu s dítětem se zrakovým nebo kombinovaným postižením od narození do 7 let věku dítěte.,"počet klientů - 1
-jedná se o okamžitou kapacitu. Podíl pro kraje působnosti služby je následující: Hl.m.Praha - 37,5%, Středočeský kraj - 35%, Ústecký kraj - 20%, Pardubický kraj - 7,5%. Ambulantní forma tvoří do 25% celkově poskytované služby. Hlavní důraz je kladen na poskytování služby terénní formou.","pondělí:
+Dítě klientské rodiny má zrakové nebo kombinované postižení a je ve věku od narození do 7 let.";Sociální služba raná péče je určena pro celou rodinu s dítětem se zrakovým nebo kombinovaným postižením od narození do 7 let věku dítěte.;"počet klientů - 1
+jedná se o okamžitou kapacitu. Podíl pro kraje působnosti služby je následující: Hl.m.Praha - 37,5%, Středočeský kraj - 35%, Ústecký kraj - 20%, Pardubický kraj - 7,5%. Ambulantní forma tvoří do 25% celkově poskytované služby. Hlavní důraz je kladen na poskytování služby terénní formou.";"pondělí:
 8:00 - 16:00
 úterý:
 8:00 - 16:00
@@ -238,14 +237,14 @@ středa:
 pátek:
 8:00 - 16:00
 sobota:
-neděle:","['224826860‘, 'info@eda.cz', 'www.eda.cz']",50.031871,14.4833335
-raná péče,Raná péče (3503896),"I MY, o.p.s.","tř. Dr. Edvarda Beneše 286/5, Soběslav II, 392 01 Soběslav",70812187,Raná péče I MY,Bc. Lea Stiborová,tř. Dr. Edvarda Beneše 286/5,"tř. Dr. Edvarda Beneše 286/5, Soběslav II, 392 01 Soběslav",1.1.2006,terénní,"osoby s kombinovaným postižením
+neděle:";['224826860‘, 'info@eda.cz', 'www.eda.cz'];50.031871;14.4833335
+Raná péče (3503896);I MY, o.p.s.;tř. Dr. Edvarda Beneše 286/5, Soběslav II, 392 01 Soběslav;70812187;Raná péče I MY;Bc. Lea Stiborová;tř. Dr. Edvarda Beneše 286/5;tř. Dr. Edvarda Beneše 286/5, Soběslav II, 392 01 Soběslav;1.1.2006;terénní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
 rodiny s dítětem/dětmi
-Rodiny s dětmi s mentálním, tělesným, kombinovaným postižením, poruchami autistického spektra, s opožděným a ohroženým vývojem - od narození do 7 let věku dítěte",děti od narození do 7 let věku,"počet klientů - 70
-- celková kapacita (jedná se o počet rodin) Okamžitá kapacita: 4 rodiny v daný okamžik","pondělí:
+Rodiny s dětmi s mentálním, tělesným, kombinovaným postižením, poruchami autistického spektra, s opožděným a ohroženým vývojem - od narození do 7 let věku dítěte";děti od narození do 7 let věku;"počet klientů - 70
+- celková kapacita (jedná se o počet rodin) Okamžitá kapacita: 4 rodiny v daný okamžik";"pondělí:
 8:00 - 18:00
 úterý:
 8:00 - 18:00
@@ -256,10 +255,10 @@ středa:
 pátek:
 8:00 - 18:00
 sobota:
-neděle:","['775104920', 'rana.pece@IMYpomahame.cz', 'www.IMYpomahame.cz']",49.2571117,14.7212508
-raná péče,Raná péče (3277328),Jdeme Autistům Naproti z.s.,"Žilinská 198/26a, Nová Ulice, 779 00 Olomouc 9",27041972,Centrum JAN,Mgr. Sylva Kočí,"Žilinská 198/26a, Nová Ulice, 779 00","Žilinská 198/26a, Nová Ulice, 779 00 Olomouc 9",15.4.2009,ambulantní,"osoby s kombinovaným postižením
-Osoby s poruchou autistického spektra a osoby s poruchou komunikace.",- děti předškolního věku (1 - 7 let),"počet klientů - 2
-okamžitá kapacita: na ul. Žilinská - 1, na ul. Blažejské nám. - 1","pondělí:
+neděle:";['775104920', 'rana.pece@IMYpomahame.cz', 'www.IMYpomahame.cz'];49.2571117;14.7212508
+Raná péče (3277328);Jdeme Autistům Naproti z.s.;Žilinská 198/26a, Nová Ulice, 779 00 Olomouc 9;27041972;Centrum JAN;Mgr. Sylva Kočí;Žilinská 198/26a, Nová Ulice, 779 00;Žilinská 198/26a, Nová Ulice, 779 00 Olomouc 9;15.4.2009;ambulantní;"osoby s kombinovaným postižením
+Osoby s poruchou autistického spektra a osoby s poruchou komunikace.";- děti předškolního věku (1 - 7 let);"počet klientů - 2
+okamžitá kapacita: na ul. Žilinská - 1, na ul. Blažejské nám. - 1";"pondělí:
 8:00 - 12:30
 úterý:
 8:00 - 12:30
@@ -270,11 +269,11 @@ středa:
 pátek:
 8:00 - 12:30
 sobota:
-neděle:","['608366835', 'jan.olomouc.o.s@seznam.cz', 'www.jan-olomouc.cz']",49.5959704,17.234233
-raná péče,Raná péče (7676136),KOLPINGOVA RODINA SMEČNO,"U Zámku 5, 273 05 Smečno",70929688,Středisko rané péče Slaný,Mgr. Jolana Kopejsková,Wilsonova 546/7,"Wilsonova 546/7, Slaný, 274 01 Slaný 1",1.1.2007,ambulantní,"osoby se zdravotním postižením
-rodiny s dítětem/dětmi","děti předškolního věku (1 - 6 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 15
-30 klientů /ročně Rodiny s dítětem /dětmi do 7 let, kde dítě má zdravotní postižení se zvláštním zřetelem na rodiny s dětmi s onemocněním spinální muskulární atrofie SMA.","pondělí:
+neděle:";['608366835', 'jan.olomouc.o.s@seznam.cz', 'www.jan-olomouc.cz'];49.5959704;17.234233
+Raná péče (7676136);KOLPINGOVA RODINA SMEČNO;U Zámku 5, 273 05 Smečno;70929688;Středisko rané péče Slaný;Mgr. Jolana Kopejsková;Wilsonova 546/7;Wilsonova 546/7, Slaný, 274 01 Slaný 1;1.1.2007;ambulantní;"osoby se zdravotním postižením
+rodiny s dítětem/dětmi";"děti předškolního věku (1 - 6 let)
+děti kojeneckého věku (do 1 roku)";"počet klientů - 15
+30 klientů /ročně Rodiny s dítětem /dětmi do 7 let, kde dítě má zdravotní postižení se zvláštním zřetelem na rodiny s dětmi s onemocněním spinální muskulární atrofie SMA.";"pondělí:
 8:00 - 13:00
 úterý:
 8:00 - 13:00
@@ -285,23 +284,23 @@ středa:
 pátek:
 8:00 - 13:00
 sobota:
-neděle:","['777222425', 'rana.pece@dumrodin.cz', 'http://www.dumrodin.cz']",50.2299313,14.0816188
-raná péče,Raná péče (9227521),MCT CZ z.s.,"Nový Spálenec 25, Česká Kubice, 344 01 Domažlice 1",67675603,MCT CZ středisko rané péče,Josef Holý,"Nový Spálenec 25, Česká Kubice","Nový Spálenec 25, Česká Kubice, 344 01 Domažlice 1",1.1.2007,ambulantní,rodiny s dítětem/dětmi,"děti předškolního věku (1 - 6 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 1
-okamžitá kapacita, maximální kapacita je 30 klientů","pondělí:
+neděle:";['777222425', 'rana.pece@dumrodin.cz', 'http://www.dumrodin.cz'];50.2299313;14.0816188
+Raná péče (9227521);MCT CZ z.s.;Nový Spálenec 25, Česká Kubice, 344 01 Domažlice 1;67675603;MCT CZ středisko rané péče;Josef Holý;Nový Spálenec 25, Česká Kubice;Nový Spálenec 25, Česká Kubice, 344 01 Domažlice 1;1.1.2007;ambulantní;rodiny s dítětem/dětmi;"děti předškolního věku (1 - 6 let)
+děti kojeneckého věku (do 1 roku)";"počet klientů - 1
+okamžitá kapacita, maximální kapacita je 30 klientů";"pondělí:
 úterý:
 středa:
 14:00 - 18:00
 čtvrtek:
 pátek:
 sobota:
-neděle:","['737111649', 'mct.cz@seznam.cz', 'http://sweb.cz/mct.cz']",49.35756845,12.91037247
-raná péče,Raná péče (4664866),"MOTÝL, z.ú.","Žlutická 1694/2, Plzeň 1-Bolevec, 323 00 Plzeň 23",26674157,MOTÝL,"Mgr. Markéta Berešová, DiS.","Žlutická 1694/2, Plzeň 1-Bolevec","Žlutická 1694/2, Plzeň 1-Bolevec, 323 00 Plzeň 23",1.1.2008,ambulantní,"osoby s kombinovaným postižením
+neděle:";['737111649', 'mct.cz@seznam.cz', 'http://sweb.cz/mct.cz'];49.35756845;12.91037247
+Raná péče (4664866);MOTÝL, z.ú.;Žlutická 1694/2, Plzeň 1-Bolevec, 323 00 Plzeň 23;26674157;MOTÝL;Mgr. Markéta Berešová, DiS.;Žlutická 1694/2, Plzeň 1-Bolevec;Žlutická 1694/2, Plzeň 1-Bolevec, 323 00 Plzeň 23;1.1.2008;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
-rodiny s dítětem/dětmi","děti předškolního věku (1 - 6 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 1
-okamžitá kapacita","pondělí:
+rodiny s dítětem/dětmi";"děti předškolního věku (1 - 6 let)
+děti kojeneckého věku (do 1 roku)";"počet klientů - 1
+okamžitá kapacita";"pondělí:
 8:00 - 14:00
 úterý:
 8:00 - 16:00
@@ -312,13 +311,13 @@ středa:
 pátek:
 8:00 - 14:00
 sobota:
-neděle:","['724822985', 'ranapece.motyl@centrum.cz', 'http://www.motyl-plzen.cz']",49.7773979,13.3616104
-raná péče,Raná péče (4334040),"Národní ústav pro autismus, z.ú.","Brunnerova 1011/3, Praha 17-Řepy, 163 00 Praha 618",26623064,Středisko rané péče NAUTIS,Bc. Jan Kouřil,"Písecká 1967/5, Praha 3-Vinohrady","Písecká 1967/5, Praha 3-Vinohrady, 130 00 Praha 3",1.10.2018,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";['724822985', 'ranapece.motyl@centrum.cz', 'http://www.motyl-plzen.cz'];49.7773979;13.3616104
+Raná péče (4334040);Národní ústav pro autismus, z.ú.;Brunnerova 1011/3, Praha 17-Řepy, 163 00 Praha 618;26623064;Středisko rané péče NAUTIS;Bc. Jan Kouřil;Písecká 1967/5, Praha 3-Vinohrady;Písecká 1967/5, Praha 3-Vinohrady, 130 00 Praha 3;1.10.2018;ambulantní;"osoby s jiným zdravotním postižením
 osoby s poruchou autistického spektra
 osoby se zdravotním postižením
 osoby s poruchou autistického spektra
-rodiny s dítětem/dětmi",od 1 do 6 let,"počet klientů - 8
-Uvedený počet klientů je maximální denní kapacita služby.","pondělí:
+rodiny s dítětem/dětmi";od 1 do 6 let;"počet klientů - 8
+Uvedený počet klientů je maximální denní kapacita služby.";"pondělí:
 9:00 - 16:00 - na základě objednání
 úterý:
 9:00 - 16:00 - na základě objednání
@@ -329,38 +328,38 @@ středa:
 pátek:
 9:00 - 16:00 - na základě objednání
 sobota:
-neděle:","['235302111', 'nautis@nautis.cz', 'http://www.praha.apla.cz']",50.0763222,14.4648255
-raná péče,Raná péče (6288242),Občanské sdružení Logo z.s.,"Vsetínská 527/20, Brno-střed, Štýřice, 639 00 Brno 39",26607468,Občanské sdružení LOGO z.s.,Ing. Tomáš Ostrý,"Vsetínská 527/20, Brno","Vsetínská 527/20, Brno-střed, Štýřice, 639 00 Brno 39",1.1.2007,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";['235302111', 'nautis@nautis.cz', 'http://www.praha.apla.cz'];50.0763222;14.4648255
+Raná péče (6288242);Občanské sdružení Logo z.s.;Vsetínská 527/20, Brno-střed, Štýřice, 639 00 Brno 39;26607468;Občanské sdružení LOGO z.s.;Ing. Tomáš Ostrý;Vsetínská 527/20, Brno;Vsetínská 527/20, Brno-střed, Štýřice, 639 00 Brno 39;1.1.2007;ambulantní;"osoby s jiným zdravotním postižením
 Děti s poruchami komunikace a hybnosti, zejména děti s poruchami autistického spektra, vývojovou dysfázií, opožděným vývojem řeči, syndromovými vadami pojící se s opožděním řečového vývoje a s ADHD.
 osoby se zdravotním postižením
 Děti s poruchami komunikace a hybnosti, zejména děti s poruchami autistického spektra, vývojovou dysfázií, opožděným vývojem řeči, syndromovými vadami pojící se s opožděním řečového vývoje a s ADHD.
 rodiny s dítětem/dětmi
-Děti s poruchami komunikace a hybnosti, zejména děti s poruchami autistického spektra, vývojovou dysfázií, opožděným vývojem řeči, syndromovými vadami pojící se s opožděním řečového vývoje a s ADHD.","děti předškolního věku (1 - 6 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 1
-Jedná se o okamžitou kapacitu, klientem se rozumí jedna rodina. V případě skupinových aktivit je max. okamžitá kapacita 12 klientů.","pondělí:
+Děti s poruchami komunikace a hybnosti, zejména děti s poruchami autistického spektra, vývojovou dysfázií, opožděným vývojem řeči, syndromovými vadami pojící se s opožděním řečového vývoje a s ADHD.";"děti předškolního věku (1 - 6 let)
+děti kojeneckého věku (do 1 roku)";"počet klientů - 1
+Jedná se o okamžitou kapacitu, klientem se rozumí jedna rodina. V případě skupinových aktivit je max. okamžitá kapacita 12 klientů.";"pondělí:
 8:00 - 12:00
 úterý:
 středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['775564615', ‘775564619’, ‘777645415’, ’775564605', ’775035330’, 'oslogo@oslogo.cz', 'rp@oslogo.cz','http://www.oslogo.cz']",49.177463,16.5982668
-raná péče,Raná péče (8307350),Oblastní charita Havlíčkův Brod,"Boženy Němcové 188, Havlíčkův Brod, 580 01 Havlíčkův Brod 1",15060233,Středisko rané péče Havlíčkův Brod,PhDr. Irena Salaguardová,"Horní 3188, Havlíčkův Brod","Horní 3188, Havlíčkův Brod, 580 01 Havlíčkův Brod 1",1.7.2002,ambulantní,"rodiny s dítětem/dětmi
-(jedná se o rodiny s dětmi do 7 let se zdravotním postižením, včetně poruchy autistického spektra, nebo jejichž vývoj je v důsledku nepřříznivého zdravotního stavu ohrožen. Rodinou se rozumí rodiče, dítě/děti, sourozenci, pěstouni, popř. pečující osoba).",- děti kojeneckého věku (do 1 roku) - děti předškolního věku (1 - 6 let) - mladší děti (7 let),"počet klientů - 3
-okamžitá kapacita služby","pondělí:
+neděle:";['775564615', ‘775564619’, ‘777645415’, ’775564605', ’775035330’, 'oslogo@oslogo.cz', 'rp@oslogo.cz','http://www.oslogo.cz'];49.177463;16.5982668
+Raná péče (8307350);Oblastní charita Havlíčkův Brod;Boženy Němcové 188, Havlíčkův Brod, 580 01 Havlíčkův Brod 1;15060233;Středisko rané péče Havlíčkův Brod;PhDr. Irena Salaguardová;Horní 3188, Havlíčkův Brod;Horní 3188, Havlíčkův Brod, 580 01 Havlíčkův Brod 1;1.7.2002;ambulantní;"rodiny s dítětem/dětmi
+(jedná se o rodiny s dětmi do 7 let se zdravotním postižením, včetně poruchy autistického spektra, nebo jejichž vývoj je v důsledku nepřříznivého zdravotního stavu ohrožen. Rodinou se rozumí rodiče, dítě/děti, sourozenci, pěstouni, popř. pečující osoba).";- děti kojeneckého věku (do 1 roku) - děti předškolního věku (1 - 6 let) - mladší děti (7 let);"počet klientů - 3
+okamžitá kapacita služby";"pondělí:
 úterý:
 středa:
 čtvrtek:
 8:00 - 14:30
 pátek:
 sobota:
-neděle:","['777741449 ‘, '569421063 ‘, 'ranapece@charitahb.cz', 'http://www.hb.charita.cz']",49.6085446,15.5782466
-raná péče,Raná péče (1840658),Oblastní charita Hradec Králové,"Komenského 266/3, Hradec Králové, 500 03 Hradec Králové 3",45979855,Středisko rané péče Sluníčko,Mgr. Pavlína Chmelíková,"třída Karla IV. 1222/25a, Hradec Králové, 500 02 ","třída Karla IV. 1222/25a, Hradec Králové, 500 02 Hradec Králové 2",1.1.2007,ambulantní,"osoby s kombinovaným postižením
+neděle:";['777741449 ‘, '569421063 ‘, 'ranapece@charitahb.cz', 'http://www.hb.charita.cz'];49.6085446;15.5782466
+Raná péče (1840658);Oblastní charita Hradec Králové;Komenského 266/3, Hradec Králové, 500 03 Hradec Králové 3;45979855;Středisko rané péče Sluníčko;Mgr. Pavlína Chmelíková;třída Karla IV. 1222/25a, Hradec Králové, 500 02;třída Karla IV. 1222/25a, Hradec Králové, 500 02 Hradec Králové 2;1.1.2007;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zrakovým postižením
-rodiny s dítětem/dětmi",- rodiny s dítětem do 7 let věku,"počet klientů - 100
-Služba může být sjednána maximálně pro 100 klientů(rodin).","pondělí:
+rodiny s dítětem/dětmi";- rodiny s dítětem do 7 let věku;"počet klientů - 100
+Služba může být sjednána maximálně pro 100 klientů(rodin).";"pondělí:
 8:00 - 16:30 - dle předchozí domluvy
 úterý:
 8:00 - 16:30 - dle předchozí domluvy
@@ -371,28 +370,28 @@ středa:
 pátek:
 8:00 - 16:30 - dle předchozí domluvy
 sobota:
-neděle:","['777721642‘, '495260732 ‘, 'slunicko@charitahk.cz', 'http://www.charitahk.cz']",50.2136165,15.8214811
-raná péče,Raná péče (3974577),Oblastní charita Kutná Hora,"Havířská 403/3, Kutná Hora-Vnitřní Město, 284 01 Kutná Hora 1",49543547,Raná péče Na Sioně,Mgr. Markéta Sieglová,"Palackého náměstí 320, Kutná Hora-Vnitřní Město, 284 01","Palackého náměstí 320, Kutná Hora-Vnitřní Město, 284 01 Kutná Hora 1",3.5.2004,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";['777721642‘, '495260732 ‘, 'slunicko@charitahk.cz', 'http://www.charitahk.cz'];50.2136165;15.8214811
+Raná péče (3974577);Oblastní charita Kutná Hora;Havířská 403/3, Kutná Hora-Vnitřní Město, 284 01 Kutná Hora 1;49543547;Raná péče Na Sioně;Mgr. Markéta Sieglová;Palackého náměstí 320, Kutná Hora-Vnitřní Město, 284 01;Palackého náměstí 320, Kutná Hora-Vnitřní Město, 284 01 Kutná Hora 1;3.5.2004;ambulantní;"osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
 rodiny s dítětem/dětmi
-Jedná se o rodiny dětí se specifickými potřebami (děti předčasně narozené, s nerovnoměrným nebo opožděným vývojem, s mentálním, pohybovým, kombinovaným handicapem, s poruchami autistického spektra) od narození do 7 let.","děti předškolního věku (1 - 6 let)
+Jedná se o rodiny dětí se specifickými potřebami (děti předčasně narozené, s nerovnoměrným nebo opožděným vývojem, s mentálním, pohybovým, kombinovaným handicapem, s poruchami autistického spektra) od narození do 7 let.";"děti předškolního věku (1 - 6 let)
 mladí dospělí (19 – 26 let)
 dospělí (27 – 64 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 65
-Rodiny dětí předčasně narozených , s mentálním pohybovým, kombinovaným hedicapem, s poruchou autistického spektra, s nerovnoměrným nebo opožděným vývojem do 7 let.","pondělí:
+děti kojeneckého věku (do 1 roku)";"počet klientů - 65
+Rodiny dětí předčasně narozených , s mentálním pohybovým, kombinovaným hedicapem, s poruchou autistického spektra, s nerovnoměrným nebo opožděným vývojem do 7 let.";"pondělí:
 13:00 - 15:00 - přítom. SP, dle před. dohody s klientem je služba poskytována i v jiné době
 úterý:
 středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['327311493‘, 'ranapece.charita@kh.cz', 'http://www.kh.charita.cz']",49.9500132,15.2685721
-raná péče,Raná péče (1570739),"Paspoint, z.ú.","Anenská 10/10, Brno-střed, Staré Brno, 602 00 Brno 2",26589907,"Paspoint, z.ú.",Ing. Tomáš Dostál,"Anenská 10/10, Brno","Anenská 10/10, Brno-střed, Staré Brno, 602 00 Brno 2",23.11.2017,ambulantní,"osoby se zdravotním postižením
-rodiny s dítětem/dětmi",děti kojeneckého věku (do 1 roku) děti předškolního věku (1 - 7 let),"počet klientů - 1
-Jedná se o maximální okamžitou kapacitu.","pondělí:
+neděle:";['327311493‘, 'ranapece.charita@kh.cz', 'http://www.kh.charita.cz'];49.9500132;15.2685721
+Raná péče (1570739);Paspoint, z.ú.;Anenská 10/10, Brno-střed, Staré Brno, 602 00 Brno 2;26589907;Paspoint, z.ú.;Ing. Tomáš Dostál;Anenská 10/10, Brno;Anenská 10/10, Brno-střed, Staré Brno, 602 00 Brno 2;23.11.2017;ambulantní;"osoby se zdravotním postižením
+rodiny s dítětem/dětmi";děti kojeneckého věku (do 1 roku) děti předškolního věku (1 - 7 let);"počet klientů - 1
+Jedná se o maximální okamžitou kapacitu.";"pondělí:
 úterý:
 středa:
 čtvrtek:
@@ -400,31 +399,31 @@ středa:
 pátek:
 9:30 - 18:00
 sobota:
-neděle:","['777798701‘, 'rp@paspoint.cz', 'www.paspoint.cz']",49.1911375,16.6022499
-raná péče,Raná péče (8414368),"Portimo, o.p.s.","Drobného 301, 592 31 Nové Město na Moravě",45659028,Raná péče,Bc. Michaela Svobodová,"Drobného 301, Nové Město na Moravě","Drobného 301, 592 31 Nové Město na Moravě",1.1.2000,ambulantní,"osoby s kombinovaným postižením
+neděle:";['777798701‘, 'rp@paspoint.cz', 'www.paspoint.cz'];49.1911375;16.6022499
+Raná péče (8414368);Portimo, o.p.s.;Drobného 301, 592 31 Nové Město na Moravě;45659028;Raná péče;Bc. Michaela Svobodová;Drobného 301, Nové Město na Moravě;Drobného 301, 592 31 Nové Město na Moravě;1.1.2000;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 rodiny s dítětem/dětmi
-jedná se o rodiny s dětmi do 7 let věku se zdravotním postižením nebo jejichž vývoj je ohrožen z důvodu různých vlivů - biologických, psychických, sociálních","děti předškolního věku (1 - 6 let)
+jedná se o rodiny s dětmi do 7 let věku se zdravotním postižením nebo jejichž vývoj je ohrožen z důvodu různých vlivů - biologických, psychických, sociálních";"děti předškolního věku (1 - 6 let)
 dorost (16 – 18 let)
 mladí dospělí (19 – 26 let)
 dospělí (27 – 64 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 2
-(max. okamžitá kapacita). Uživatelem služby raná péče je celá rodina dítěte s postižením. Max. okamžitá kapacita pro skupinové aktivity je stanovena na 10 rodin.","pondělí:
+děti kojeneckého věku (do 1 roku)";"počet klientů - 2
+(max. okamžitá kapacita). Uživatelem služby raná péče je celá rodina dítěte s postižením. Max. okamžitá kapacita pro skupinové aktivity je stanovena na 10 rodin.";"pondělí:
 úterý:
 středa:
 čtvrtek:
 14:00 - 18:00 - ""Klub rodičů"" - každý 1. čtvrtek v měsíci, 15:00 - 17:00 - (každý čtvrtek mimo 1. čtvrtku v měsíci)
 pátek:
 sobota:
-neděle:","['566617939 ‘, 'ranapece@portimo.cz', 'www.portimo.cz']",49.5667176,16.0775399
-raná péče,Raná péče (8920627),"Raná péče Čtyřlístek, z.s.","Školní 957/15, Hustopeče, 693 01 Hustopeče u Brna",3331270,"Raná péče Čtyřlístek, z.s.",Mgr. Radka Donné,"17. listopadu 48/28, Břeclav, 690 02","17. listopadu 48/28, Břeclav, 690 02 Břeclav 2",21.12.2016,ambulantní,"osoby s kombinovaným postižením
+neděle:";['566617939 ‘, 'ranapece@portimo.cz', 'www.portimo.cz'];49.5667176;16.0775399
+Raná péče (8920627);Raná péče Čtyřlístek, z.s.;Školní 957/15, Hustopeče, 693 01 Hustopeče u Brna;3331270;Raná péče Čtyřlístek, z.s.;Mgr. Radka Donné;17. listopadu 48/28, Břeclav, 690 02;17. listopadu 48/28, Břeclav, 690 02 Břeclav 2;21.12.2016;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
-rodiny s dítětem/dětmi","děti předškolního věku (1 - 6 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 8
-jedná se o měsíční kapacitu","pondělí:
+rodiny s dítětem/dětmi";"děti předškolního věku (1 - 6 let)
+děti kojeneckého věku (do 1 roku)";"počet klientů - 8
+jedná se o měsíční kapacitu";"pondělí:
 9:00 - 17:00
 úterý:
 středa:
@@ -432,12 +431,12 @@ středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['724364433', '773868013', 'donne@rpctyrlistek.cz, 'http://www.rpctyrlistek.cz']",48.7589257,16.8826353
-raná péče,Raná péče (1997532),"Raná péče Kuk, z.ú.","Tomanova 2645/5, Plzeň 3-Jižní Předměstí, 301 00 Plzeň 1",29109663,"Raná péče Kuk, z.ú.",Mgr. Miroslava Bartošová,"Tomanova 2645/5, Plzeň, 301 00","Tomanova 2645/5, Plzeň 3-Jižní Předměstí, 301 00 Plzeň 1",1.1.2011,terénní,"osoby s kombinovaným postižením
+neděle:";['724364433', '773868013', 'donne@rpctyrlistek.cz, 'http://www.rpctyrlistek.cz'];48.7589257;16.8826353
+Raná péče (1997532);Raná péče Kuk, z.ú.;Tomanova 2645/5, Plzeň 3-Jižní Předměstí, 301 00 Plzeň 1;29109663;Raná péče Kuk, z.ú.;Mgr. Miroslava Bartošová;Tomanova 2645/5, Plzeň, 301 00;Tomanova 2645/5, Plzeň 3-Jižní Předměstí, 301 00 Plzeň 1;1.1.2011;terénní;"osoby s kombinovaným postižením
 osoby se zrakovým postižením
 rodiny s dítětem/dětmi
-celé rodiny s dětmi se zrakovým nebo kombinovaným postižením, tzn. rodiče, prarodiče, sourozenci, příp. pečující osoby","- děti kojeneckého věku (do 1 roku), - děti předškolního věku (1-6 let), - mladší děti (7 let)","počet klientů - 5
-Jedná se o okamžitou kapacitu služby . Plzeňský kraj - okamžitá kapacita 5 klientů, roční kapacita 42 klientů. Karlovarská kraj - okamžitá kapacita 5 klientů, roční kapacita 23 klientů.","pondělí:
+celé rodiny s dětmi se zrakovým nebo kombinovaným postižením, tzn. rodiče, prarodiče, sourozenci, příp. pečující osoby";- děti kojeneckého věku (do 1 roku), - děti předškolního věku (1-6 let), - mladší děti (7 let);"počet klientů - 5
+Jedná se o okamžitou kapacitu služby . Plzeňský kraj - okamžitá kapacita 5 klientů, roční kapacita 42 klientů. Karlovarská kraj - okamžitá kapacita 5 klientů, roční kapacita 23 klientů.";"pondělí:
 7:00 - 19:00
 úterý:
 7:00 - 19:00
@@ -448,26 +447,26 @@ středa:
 pátek:
 7:00 - 19:00
 sobota:
-neděle:","['377420035', '724400811', 'plzen@ranapece.eu', 'www.ranapecekuk.eu']",49.7349827,13.3648797
-raná péče,Raná péče (6282485),"Rodinná pohoda, o.s.","Morávkova 305/35, Dědice, 682 01 Vyškov 1",26999030,Středisko rané péče pro Vyškov a Slavkov,Mgr. Jana Kubaláková,"Tyršova 324, Slavkov u Brna","Tyršova 324, 684 01 Slavkov u Brna",1.11.2012,ambulantní,"osoby s kombinovaným postižením
+neděle:";['377420035', '724400811', 'plzen@ranapece.eu', 'www.ranapecekuk.eu'];49.7349827;13.3648797
+Raná péče (6282485);Rodinná pohoda, o.s.;Morávkova 305/35, Dědice, 682 01 Vyškov 1;26999030;Středisko rané péče pro Vyškov a Slavkov;Mgr. Jana Kubaláková;Tyršova 324, Slavkov u Brna;Tyršova 324, 684 01 Slavkov u Brna;1.11.2012;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se sluchovým postižením
 osoby se zdravotním postižením
 osoby se zrakovým postižením
-rodiny s dítětem/dětmi","děti předškolního věku (1 - 6 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 1
-Jedná se o okamžitou kapacitu.","pondělí:
+rodiny s dítětem/dětmi";"děti předškolního věku (1 - 6 let)
+děti kojeneckého věku (do 1 roku)";"počet klientů - 1
+Jedná se o okamžitou kapacitu.";"pondělí:
 úterý:
 středa:
 čtvrtek:
 pátek:
 8:00 - 12:00
 sobota:
-neděle:","['605473698‘, 'rodinna.pohoda@centrum.cz', 'www.rodinnapohoda.wgz.cz']",49.1566285,16.8798612
-raná péče,Raná péče (6933069),Rodinné Integrační Centrum z. s.,"náměstí Republiky 2686, Pardubice I-Zelené Předměstí, 530 02 Pardubice 2",27026728,Rodinné Integrační Centrum z. s.,"Ing. Mgr. Hana Janiková, MBA","B. Smetany 460, Lanškroun, 56301","B. Smetany 460, Žichlínské Předměstí, 563 01 Lanškroun",18.4.2017,ambulantní,"rodiny s dítětem/dětmi
-Rodiny s jedním nebo více dětmi s poruchami komunikace a sociální interakce, zejména s diagnostikovanými poruchami autistického spektra nebo s podezřením na PAS ve fázi diagnostiky.","Služba je poskytována rodinám s dítětem, dětmi ve věku od 1 do 7 let včetně.","počet klientů - 65
-Kapacitou se rozumí počet rodin za měsíc.","pondělí:
+neděle:";['605473698‘, 'rodinna.pohoda@centrum.cz', 'www.rodinnapohoda.wgz.cz'];49.1566285;16.8798612
+Raná péče (6933069);Rodinné Integrační Centrum z. s.;náměstí Republiky 2686, Pardubice I-Zelené Předměstí, 530 02 Pardubice 2;27026728;Rodinné Integrační Centrum z. s.;Ing. Mgr. Hana Janiková, MBA;B. Smetany 460, Lanškroun, 56301;B. Smetany 460, Žichlínské Předměstí, 563 01 Lanškroun;18.4.2017;ambulantní;"rodiny s dítětem/dětmi
+Rodiny s jedním nebo více dětmi s poruchami komunikace a sociální interakce, zejména s diagnostikovanými poruchami autistického spektra nebo s podezřením na PAS ve fázi diagnostiky.";Služba je poskytována rodinám s dítětem, dětmi ve věku od 1 do 7 let včetně.;"počet klientů - 65
+Kapacitou se rozumí počet rodin za měsíc.";"pondělí:
 7:30 - 12:00 - B. Smetany 460, Lanškroun
 úterý:
 7:30 - 12:00 - náměstí Republiky 2686, Pardubice
@@ -475,38 +474,38 @@ středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['739025071‘, 'info@ric.cz', 'www.ric.cz']",49.9072324,16.6082451
-raná péče,Raná péče (8788535),Slezská diakonie,"Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1",65468562,Poradna rané péče MATANA,Pavlína Winklerová,"Hlubčická 294/9, Krnov, 79401","Hlubčická 294/9, Pod Bezručovým vrchem, 794 01 Krnov 1",16.1.2012,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";['739025071‘, 'info@ric.cz', 'www.ric.cz'];49.9072324;16.6082451
+Raná péče (8788535);Slezská diakonie;Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1;65468562;Poradna rané péče MATANA;Pavlína Winklerová;Hlubčická 294/9, Krnov, 79401;Hlubčická 294/9, Pod Bezručovým vrchem, 794 01 Krnov 1;16.1.2012;ambulantní;"osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
-rodiny s dítětem/dětmi",Služba je určena s dítětem/dětmi cílové skupiny do 7 let věku a to včetně.,počet klientů - 1,"pondělí:
+rodiny s dítětem/dětmi";Služba je určena s dítětem/dětmi cílové skupiny do 7 let věku a to včetně.;počet klientů - 1;"pondělí:
 úterý:
 8:00 - 15:00
 středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['731191868‘, ‘737702896‘, 'ranapece@sdk.cz', 'www.slezskadiakonie.cz','www.sdk.cz']",50.0921275,17.7091588
-raná péče,Raná péče (9734991),Slezská diakonie,"Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1",65468562,Poradna rané péče DOREA,Mgr. Lucie Freibergová,"Kamenná 184/11, Brno, 63900","Kamenná 184/11, Brno-střed, Štýřice, 639 00 Brno 39",15.6.2005,ambulantní,"osoby s kombinovaným postižením
+neděle:";['731191868‘, ‘737702896‘, 'ranapece@sdk.cz', 'www.slezskadiakonie.cz','www.sdk.cz'];50.0921275;17.7091588
+Raná péče (9734991);Slezská diakonie;Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1;65468562;Poradna rané péče DOREA;Mgr. Lucie Freibergová;Kamenná 184/11, Brno, 63900;Kamenná 184/11, Brno-střed, Štýřice, 639 00 Brno 39;15.6.2005;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
-rodiny s dítětem/dětmi",do 7 let,počet klientů - 2,"pondělí:
+rodiny s dítětem/dětmi";do 7 let;počet klientů - 2;"pondělí:
 úterý:
 9:00 - 12:00 - Pondělí, středa, čtvrtek, pátek - dle předchozí domluvy
 středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","[‘734862310‘, 'rp.dorea@slezskadiakonie.cz', ,'www.sdbrno.cz']",49.1841782,16.59378
-raná péče,Raná péče (3398605),Slezská diakonie,"Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1",65468562,Poradna rané péče EUNIKA,Mgr. Kateřina Folwarczná,"Masarykovo nám. 6/5, Karviná, 733 01","Masarykovo nám. 6/5, Fryštát, 733 01 Karviná 1",1.1.2004,ambulantní,"osoby s kombinovaným postižením
+neděle:";[‘734862310‘, 'rp.dorea@slezskadiakonie.cz', ,'www.sdbrno.cz'];49.1841782;16.59378
+Raná péče (3398605);Slezská diakonie;Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1;65468562;Poradna rané péče EUNIKA;Mgr. Kateřina Folwarczná;Masarykovo nám. 6/5, Karviná, 733 01;Masarykovo nám. 6/5, Fryštát, 733 01 Karviná 1;1.1.2004;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
 rodiny s dítětem/dětmi
-I pro osoby s poruchami autistického spektra.",Služba je určena pro rodiny s dětmi do 7 let věku dítěte.,počet klientů - 1,"pondělí:
+I pro osoby s poruchami autistického spektra.";Služba je určena pro rodiny s dětmi do 7 let věku dítěte.;počet klientů - 1;"pondělí:
 8:00 - 17:30 - pouze po předchozí domluvě
 úterý:
 8:00 - 15:30 - pouze po předchozí domluvě
@@ -517,24 +516,24 @@ středa:
 pátek:
 0:00 - 23:59 - pouze po předchozí domluvě
 sobota:
-neděle:","[‘739684916‘, ‘731670761‘, 'vedouci.eunika@slezskadiakonie.cz', ,'www.slezskadiakonie.cz']",49.854175,18.54089
-raná péče,Raná péče (5283141),Slezská diakonie,"Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1",65468562,Poradna rané péče LYDIE,Jana Kadlubcová,"Třanovského 1758/10, Český Těšín, 737 01","Třanovského 1758/10, Český Těšín, 737 01 Český Těšín 1",1.1.2002,ambulantní,"osoby s kombinovaným postižením
+neděle:";[‘739684916‘, ‘731670761‘, 'vedouci.eunika@slezskadiakonie.cz', ,'www.slezskadiakonie.cz'];49.854175;18.54089
+Raná péče (5283141);Slezská diakonie;Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1;65468562;Poradna rané péče LYDIE;Jana Kadlubcová;Třanovského 1758/10, Český Těšín, 737 01;Třanovského 1758/10, Český Těšín, 737 01 Český Těšín 1;1.1.2002;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
-rodiny s dítětem/dětmi",Služba je určena pro rodiny s dětmi do 7 let věku dítěte.,počet klientů - 2,"pondělí:
+rodiny s dítětem/dětmi";Služba je určena pro rodiny s dětmi do 7 let věku dítěte.;počet klientů - 2;"pondělí:
 úterý:
 středa:
 čtvrtek:
 pátek:
 12:00 - 15:00 - jiná hodina dle dohody s rodinou
 sobota:
-neděle:","[‘558712728‘, 'rp.lydie@slezskadiakonie.cz', ,'www.slezskadiakonie.cz']",49.7498438,18.6241838
-raná péče,Raná péče (5586776),Slezská diakonie,"Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1",65468562,Poradna rané péče SALOME,Bc. Irina Tkačová,"Štramberská 2871/47, Hulváky, 70300","Štramberská 2871/47, Hulváky, 703 00 Ostrava 3",1.9.2000,ambulantní,"osoby s kombinovaným postižením
+neděle:";[‘558712728‘, 'rp.lydie@slezskadiakonie.cz', ,'www.slezskadiakonie.cz'];49.7498438;18.6241838
+Raná péče (5586776);Slezská diakonie;Na Nivách 259/7, Český Těšín, 737 01 Český Těšín 1;65468562;Poradna rané péče SALOME;Bc. Irina Tkačová;Štramberská 2871/47, Hulváky, 70300;Štramberská 2871/47, Hulváky, 703 00 Ostrava 3;1.9.2000;ambulantní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
-rodiny s dítětem/dětmi",Služba je určena pro rodiny s dětmi do 7 let věku dítěte.,počet klientů - 2,"pondělí:
+rodiny s dítětem/dětmi";Služba je určena pro rodiny s dětmi do 7 let věku dítěte.;počet klientů - 2;"pondělí:
 7:30 - 15:30 - po telefonické domluvě
 úterý:
 7:30 - 15:30 - po telefonické domluvě
@@ -545,21 +544,21 @@ středa:
 pátek:
 7:30 - 15:30 - po telefonické domluvě
 sobota:
-neděle:","[‘734350010‘, ‘703434862’, ‘733622330’, 'rp.salome@slezskadiakonie.cz', ,'www.slezskadiakonie.cz']",49.816245,18.2567972
-raná péče,Raná péče (1676477),Sociální služby města Havířova,"Přemyslova 1618/12, Podlesí, 736 01 Havířov 1",60337583,Poradenské středisko pro rodinu a dítě RaD,Mgr. Renáta Vališová,"Atriová 1297/5, Havířov - Město, 736 01","Atriová 1297/5, Město, 736 01 Havířov 1",1.1.2006,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";[‘734350010‘, ‘703434862’, ‘733622330’, 'rp.salome@slezskadiakonie.cz', ,'www.slezskadiakonie.cz'];49.816245;18.2567972
+Raná péče (1676477);Sociální služby města Havířova;Přemyslova 1618/12, Podlesí, 736 01 Havířov 1;60337583;Poradenské středisko pro rodinu a dítě RaD;Mgr. Renáta Vališová;Atriová 1297/5, Havířov - Město, 736 01;Atriová 1297/5, Město, 736 01 Havířov 1;1.1.2006;ambulantní;"osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
-osoby s tělesným postižením",do 7 let věku,počet klientů - 1,"pondělí:
+osoby s tělesným postižením";do 7 let věku;počet klientů - 1;"pondělí:
 8:00 - 12:00
 úterý:
 středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","[‘725852994‘, ‘596885678’, 'ranapece-rad@ssmh.cz', ,'www.ssmh.cz']",49.7880413,18.4181938
-raná péče,Raná péče (4123958),"Společnost pro ranou péči, pobočka Brno","Uzbecká 572/32, Bohunice, 625 00 Brno 25",75094924,"Společnost pro ranou péči, pobočka Brno",Mgr. Karla Němcová,"Uzbecká 572/32, Bohunice, 625 00","Uzbecká 572/32, Bohunice, 625 00 Brno 25",1.10.1994,terénní,"osoby s kombinovaným postižením
+neděle:";[‘725852994‘, ‘596885678’, 'ranapece-rad@ssmh.cz', ,'www.ssmh.cz'];49.7880413;18.4181938
+Raná péče (4123958);Společnost pro ranou péči, pobočka Brno;Uzbecká 572/32, Bohunice, 625 00 Brno 25;75094924;Společnost pro ranou péči, pobočka Brno;Mgr. Karla Němcová;Uzbecká 572/32, Bohunice, 625 00;Uzbecká 572/32, Bohunice, 625 00 Brno 25;1.10.1994;terénní;"osoby s kombinovaným postižením
 osoby se zrakovým postižením
-rodiny s dítětem/dětmi",děti od narození do 7 let věku,počet klientů - 9,"pondělí:
+rodiny s dítětem/dětmi";děti od narození do 7 let věku;počet klientů - 9;"pondělí:
 8:00 - 18:00
 úterý:
 8:00 - 18:00
@@ -570,10 +569,10 @@ středa:
 pátek:
 8:00 - 18:00
 sobota:
-neděle:","[‘777234134‘, ‘541236743’, 'brno@ranapece.cz', ,'http://www.ranapece.cz']",49.171648,16.5812133
-raná péče,Raná péče (41239581),"Společnost pro ranou péči, pobočka Brno","Uzbecká 572/32, Bohunice, 625 00 Brno 25",75094924,"Společnost pro ranou péči, pobočka Brno",Mgr. Karla Němcová,"Dolní 165/1, 59101, Žďár nad Sázavou","Dolní 165/1, 591 01 Žďár nad Sázavou 1",1.10.1994,terénní,"osoby s kombinovaným postižením
+neděle:";[‘777234134‘, ‘541236743’, 'brno@ranapece.cz', ,'http://www.ranapece.cz'];49.171648;16.5812133
+Raná péče (41239581);Společnost pro ranou péči, pobočka Brno;Uzbecká 572/32, Bohunice, 625 00 Brno 25;75094924;Společnost pro ranou péči, pobočka Brno;Mgr. Karla Němcová;Dolní 165/1, 59101, Žďár nad Sázavou;Dolní 165/1, 591 01 Žďár nad Sázavou 1;1.10.1994;terénní;"osoby s kombinovaným postižením
 osoby se zrakovým postižením
-rodiny s dítětem/dětmi",děti od narození do 7 let věku,počet klientů - 9,"pondělí:
+rodiny s dítětem/dětmi";děti od narození do 7 let věku;počet klientů - 9;"pondělí:
 8:00 - 18:00
 úterý:
 8:00 - 18:00
@@ -584,18 +583,18 @@ středa:
 pátek:
 8:00 - 18:00
 sobota:
-neděle:","[‘774240234‘, 'vysocina@ranapece.cz', ,'http://www.ranapece.cz']",49.5658359,15.9401911
-raná péče,Raná péče (5585320),"Společnost pro ranou péči, pobočka České Budějovice","Čechova 164/1, České Budějovice 6, 370 01 České Budějovice 1",75094975,"Středisko rané péče SPRP, pobočka České Budějovice",Mgr. Jana Tušlová,"Čechova 164/1, České Budějovice 6, 370 01 ","Čechova 164/1, České Budějovice 6, 370 01 České Budějovice 1",1.10.1994,"ambulantní, terénní","osoby s kombinovaným postižením
+neděle:";[‘774240234‘, 'vysocina@ranapece.cz', ,'http://www.ranapece.cz'];49.5658359;15.9401911
+Raná péče (5585320);Společnost pro ranou péči, pobočka České Budějovice;Čechova 164/1, České Budějovice 6, 370 01 České Budějovice 1;75094975;Středisko rané péče SPRP, pobočka České Budějovice;Mgr. Jana Tušlová;Čechova 164/1, České Budějovice 6, 370 01;Čechova 164/1, České Budějovice 6, 370 01 České Budějovice 1;1.10.1994;ambulantní, terénní;"osoby s kombinovaným postižením
 osoby se zrakovým postižením
-rodiny s dítětem/dětmi",0 - 7 let věku,neuvedeno,neuvedeno,"[‘385520088 ‘, 'budejovice@ranapece.cz', ,'http://www.ranapece.cz']",48.9710973,14.482034
-raná péče,Raná péče (4755953),"Společnost pro ranou péči, pobočka Olomouc","Burešov 4886, Zlín, 760 01 Zlín 1, Střední novosadská 356/52, Nové Sady, 779 00 Olomouc 9, U botanické zahrady 828/4, Olomouc, 779 00 Olomouc 9",75095009,"Společnost pro ranou péči, pobočka Olomouc",,Střední novosadská 356/52 779 00 Olomouc,Střední novosadská 356/52 779 00 Olomouc,1.10.1994,terénní,"osoby s kombinovaným postižením
+rodiny s dítětem/dětmi";0 - 7 let věku;neuvedeno;neuvedeno;[‘385520088 ‘, 'budejovice@ranapece.cz', ,'http://www.ranapece.cz'];48.9710973;14.482034
+Raná péče (4755953);Společnost pro ranou péči, pobočka Olomouc;Burešov 4886, Zlín, 760 01 Zlín 1, Střední novosadská 356/52, Nové Sady, 779 00 Olomouc 9, U botanické zahrady 828/4, Olomouc, 779 00 Olomouc 9;75095009;Společnost pro ranou péči, pobočka Olomouc;;Střední novosadská 356/52 779 00 Olomouc;Střední novosadská 356/52 779 00 Olomouc;1.10.1994;terénní;"osoby s kombinovaným postižením
 Osoby s mentálním postižením.
 osoby se zrakovým, tělesným postižením
-rodiny s dítětem/dětmi",bez omezení věku Služba je určena celé rodině.,neuvedeno,neuvedeno,"[‘774734035 ‘, 'olomouc@ranapece.cz' ,'http://www.ranapece.cz']",49.5718446,17.2591638
-raná péče,Raná péče (4287928),"Společnost pro ranou péči, pobočka Ostrava","Rodinná 2719/57, Ostrava-Jih, Zábřeh, 700 30 Ostrava 30",75095017,"Společnost pro ranou péči, pobočka Ostrava",Bc. Vladimíra Salvetová,"Rodinná 2719/57, Ostrava-Jih, Zábřeh, 700 30 ","Rodinná 2719/57, Ostrava-Jih, Zábřeh, 700 30 Ostrava 30",1.10.1994,ambulantní,"osoby s kombinovaným postižením
+rodiny s dítětem/dětmi";bez omezení věku Služba je určena celé rodině.;neuvedeno;neuvedeno;[‘774734035 ‘, 'olomouc@ranapece.cz' ,'http://www.ranapece.cz'];49.5718446;17.2591638
+Raná péče (4287928);Společnost pro ranou péči, pobočka Ostrava;Rodinná 2719/57, Ostrava-Jih, Zábřeh, 700 30 Ostrava 30;75095017;Společnost pro ranou péči, pobočka Ostrava;Bc. Vladimíra Salvetová;Rodinná 2719/57, Ostrava-Jih, Zábřeh, 700 30;Rodinná 2719/57, Ostrava-Jih, Zábřeh, 700 30 Ostrava 30;1.10.1994;ambulantní;"osoby s kombinovaným postižením
 Osoby s kombinovaným zrakovým postižením.
 osoby se zrakovým postižením
-rodiny s dítětem/dětmi",Služba je určena dítěti s postižením do 7 let věku a jeho rodině.,počet klientů - 8,"pondělí:
+rodiny s dítětem/dětmi";Služba je určena dítěti s postižením do 7 let věku a jeho rodině.;počet klientů - 8;"pondělí:
 8:00 - 16:30 - Služba je poskytována v čase dohodnutém s rodinou (klientem služby).
 úterý:
 8:00 - 16:30 - Služba je poskytována v čase dohodnutém s rodinou (klientem služby).
@@ -606,8 +605,8 @@ středa:
 pátek:
 8:00 - 16:30 - Služba je poskytována v čase dohodnutém s rodinou (klientem služby).
 sobota:
-neděle:","[‘774 567 236’, 'ostrava@ranapece.cz','www.ranapece.cz']",49.7969279,18.2506462
-raná péče,Raná péče (2812601),"Společnost pro ranou péči, z.s.","Klimentská 1203/2, Praha 1-Nové Město, 110 00 Praha 1",67363610,"Společnost pro ranou péči, z.s.",PhDr. Jitka Barlová,"Klimentská 1203/2, Praha, 11000","Klimentská 1203/2, Praha 1-Nové Město, 110 00 Praha 1",1.1.2007,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";[‘774 567 236’, 'ostrava@ranapece.cz','www.ranapece.cz'];49.7969279;18.2506462
+Raná péče (2812601);Společnost pro ranou péči, z.s.;Klimentská 1203/2, Praha 1-Nové Město, 110 00 Praha 1;67363610;Společnost pro ranou péči, z.s.;PhDr. Jitka Barlová;Klimentská 1203/2, Praha, 11000;Klimentská 1203/2, Praha 1-Nové Město, 110 00 Praha 1;1.1.2007;ambulantní;"osoby s jiným zdravotním postižením
 Osoby s poruchou autistického spektra
 osoby s kombinovaným postižením
 Rodiny s dětmi s kombinovaný postižením do 7 let.
@@ -618,8 +617,8 @@ Rodiny s dětmi s mentálním postižením do 7 let.
 osoby se zrakovým postižením
 Rodiny s dětmi se zrakovým postižením do 7 let.
 rodiny s dítětem/dětmi
-Rodiny s dětmi se zrakovým a kombinovaným postižením do 7 let.","děti kojeneckého a předškolního věku - 0 až 7 let, dospělí starší 18 let -popřípadě mladší, stanou-li se rodiči","počet klientů - 1
-Uvedený počet je okamžitá kapacita služby. Klientem se rozumí rodina s dítětem s postižením. Roční kapacita je 107 klientů. Kapacita pro kraje: Hl.m. Praha - 32, Středočeský kraj - 25, Karlovarský kraj - 50.","pondělí:
+Rodiny s dětmi se zrakovým a kombinovaným postižením do 7 let.";děti kojeneckého a předškolního věku - 0 až 7 let, dospělí starší 18 let -popřípadě mladší, stanou-li se rodiči;"počet klientů - 1
+Uvedený počet je okamžitá kapacita služby. Klientem se rozumí rodina s dítětem s postižením. Roční kapacita je 107 klientů. Kapacita pro kraje: Hl.m. Praha - 32, Středočeský kraj - 25, Karlovarský kraj - 50.";"pondělí:
 8:00 - 16:00 - po předchozí dohodě
 úterý:
 9:00 - 12:00
@@ -630,12 +629,12 @@ středa:
 pátek:
 8:00 - 16:00 - po předchozí dohodě
 sobota:
-neděle:","[‘224826858‘, ‘777234036’, 'vedouci.praha@ranapece.cz', 'centrum@ranapece.cz','www.ranapece.cz']",50.0914509,14.4281422
-raná péče,Raná péče (8353234),"Správa zdravotních a sociálních služeb Cheb, příspěvková organizace","Pastýřská 771/4, Cheb, 350 02 Cheb 2",70887985,Raná péče Krůček - terénní forma,Mgr. Andrea Ungrová,"Kamenná 656/40, Cheb, 350 02 ","Kamenná 656/40, Cheb, 350 02 Cheb 2",17.5.2011,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";[‘224826858‘, ‘777234036’, 'vedouci.praha@ranapece.cz', 'centrum@ranapece.cz','www.ranapece.cz'];50.0914509;14.4281422
+Raná péče (8353234);Správa zdravotních a sociálních služeb Cheb, příspěvková organizace;Pastýřská 771/4, Cheb, 350 02 Cheb 2;70887985;Raná péče Krůček - terénní forma;Mgr. Andrea Ungrová;Kamenná 656/40, Cheb, 350 02;Kamenná 656/40, Cheb, 350 02 Cheb 2;17.5.2011;ambulantní;"osoby s jiným zdravotním postižením
 osoby s poruchou autistického spektra
 osoby s kombinovaným postižením
-osoby s mentálním postižením",- děti kojeneckého věku (do 1 roku) - děti předškolního věku (1 - 6 let) - mladší děti (do 7 let),"počet klientů - 1
-ambulantní forma - jedná se o maximální okamžitou kapacitu","pondělí:
+osoby s mentálním postižením";- děti kojeneckého věku (do 1 roku) - děti předškolního věku (1 - 6 let) - mladší děti (do 7 let);"počet klientů - 1
+ambulantní forma - jedná se o maximální okamžitou kapacitu";"pondělí:
 úterý:
 9:00 - 12:00, 13:00 - 15:00 - pouze pro objednané klienty
 středa:
@@ -643,13 +642,13 @@ středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","['354694560', '702077012', '607051012', 'ranapece@szss-cheb.cz', 'www.szss-cheb.cz']",50.0820372,12.3697965
-raná péče,Raná péče (5397990),Středisko rané péče EDUCO Zlín z.s.,"Chlumská 453, Louky, 763 02 Zlín 4",26986728,Středisko rané péče EDUCO Zlín z.s.,Ing.Bc. Dagmar Machová,"Chlumská 453, Louky, 763 02","Chlumská 453, Louky, 763 02 Zlín 4",7.1.2005,terénní,"osoby s kombinovaným postižením
+neděle:";['354694560', '702077012', '607051012', 'ranapece@szss-cheb.cz', 'www.szss-cheb.cz'];50.0820372;12.3697965
+Raná péče (5397990);Středisko rané péče EDUCO Zlín z.s.;Chlumská 453, Louky, 763 02 Zlín 4;26986728;Středisko rané péče EDUCO Zlín z.s.;Ing.Bc. Dagmar Machová;Chlumská 453, Louky, 763 02;Chlumská 453, Louky, 763 02 Zlín 4;7.1.2005;terénní;"osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se zdravotním postižením
-rodiny s dítětem/dětmi",- děti kojeneckého věku (do 1 roku) - děti předškolního věku (1 - 7 let),"počet klientů - 6
-6 klientů - klientských rodin/daný okamžik. Doplňující údaj: 110 klientských rodin/rok. Územní působnost: Zlínský kraj.","pondělí:
+rodiny s dítětem/dětmi";- děti kojeneckého věku (do 1 roku) - děti předškolního věku (1 - 7 let);"počet klientů - 6
+6 klientů - klientských rodin/daný okamžik. Doplňující údaj: 110 klientských rodin/rok. Územní působnost: Zlínský kraj.";"pondělí:
 7:00 - 18:00
 úterý:
 7:00 - 18:00
@@ -660,13 +659,13 @@ středa:
 pátek:
 7:00 - 18:00
 sobota:
-neděle:","['739777729', '577644199', 'ranapece.zlin@volny.cz']",49.2195462,17.6134279
-raná péče,Raná péče (1940945),Středisko rané péče v Pardubicích o.p.s.,"Bělehradská 389, Pardubice II-Polabiny, 530 09 Pardubice 9",26600285,Středisko rané péče v Pardubicích o.p.s.,Mgr. Blanka Brandová,"Bělehradská 389, Pardubice, 53009","Bělehradská 389, Pardubice II-Polabiny, 530 09 Pardubice 9",1.2.2003,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";['739777729', '577644199', 'ranapece.zlin@volny.cz'];49.2195462;17.6134279
+Raná péče (1940945);Středisko rané péče v Pardubicích o.p.s.;Bělehradská 389, Pardubice II-Polabiny, 530 09 Pardubice 9;26600285;Středisko rané péče v Pardubicích o.p.s.;Mgr. Blanka Brandová;Bělehradská 389, Pardubice, 53009;Bělehradská 389, Pardubice II-Polabiny, 530 09 Pardubice 9;1.2.2003;ambulantní;"osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 rodiny s dítětem/dětmi
-rodiny s dětmi s ohroženým vývojem (komplikovaný porod, nízká porodní hmotnost, nedonošenost, hypoxie atd.), s nerovnoměrným vývojem, s tělesným, mentálním postižením, s poruchou autistického spektra či s kombinovaným postižením.",Služba je určena pro rodinu s dítětem od narození do 7 let věku dítěte.,počet klientů - 120,"pondělí:
+rodiny s dětmi s ohroženým vývojem (komplikovaný porod, nízká porodní hmotnost, nedonošenost, hypoxie atd.), s nerovnoměrným vývojem, s tělesným, mentálním postižením, s poruchou autistického spektra či s kombinovaným postižením.";Služba je určena pro rodinu s dítětem od narození do 7 let věku dítěte.;počet klientů - 120;"pondělí:
 8:00 - 12:00, 13:00 - 15:00 - Konzultační hodiny bez objednání.
 úterý:
 8:00 - 15:00 - Dle předchozí dohody.
@@ -677,17 +676,17 @@ středa:
 pátek:
 8:00 - 15:00 - Dle předchozí dohody.
 sobota:
-neděle:","['466641031', '736512613', 'stredisko@ranapece-pce.cz', 'http://www.ranapece-pce.cz']",50.0470104,15.7594834
-raná péče,Raná péče (1584376),"Středisko ROSA, z. s.","Římská 2846, Kladno, 272 04 Kladno 4",46416463,"Středisko ROSA, z.s.",Mgr. Hana Fechtnerová,"Římská 2846, Kladno, 272 04","Římská 2846, Kladno, 272 04 Kladno 4",1.6.1994,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";['466641031', '736512613', 'stredisko@ranapece-pce.cz', 'http://www.ranapece-pce.cz'];50.0470104;15.7594834
+Raná péče (1584376);Středisko ROSA, z. s.;Římská 2846, Kladno, 272 04 Kladno 4;46416463;Středisko ROSA, z.s.;Mgr. Hana Fechtnerová;Římská 2846, Kladno, 272 04;Římská 2846, Kladno, 272 04 Kladno 4;1.6.1994;ambulantní;"osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby se zdravotním postižením
-rodiny s dítětem/dětmi","děti předškolního věku (1 - 6 let)
+rodiny s dítětem/dětmi";"děti předškolního věku (1 - 6 let)
 mladší děti (7 –10 let)
 mladí dospělí (19 – 26 let)
 dospělí (27 – 64 let)
-děti kojeneckého věku (do 1 roku)","počet klientů - 95
-Maximální kapacita poskytovaných služeb je 95 klientů týdně ve všech aktivitách služby. Pro klienty realizujeme 1x ročně týdenní psychorehabilitační pobyt a 2x ročně čtyřdenní pobyt.Každý pobyt má kapacitu 40 klientů. Pokud jeden klient využívá více aktivit, je zahrnut do kapacity každé jednotlivé aktivity.","pondělí:
+děti kojeneckého věku (do 1 roku)";"počet klientů - 95
+Maximální kapacita poskytovaných služeb je 95 klientů týdně ve všech aktivitách služby. Pro klienty realizujeme 1x ročně týdenní psychorehabilitační pobyt a 2x ročně čtyřdenní pobyt.Každý pobyt má kapacitu 40 klientů. Pokud jeden klient využívá více aktivit, je zahrnut do kapacity každé jednotlivé aktivity.";"pondělí:
 8:00 - 16:00
 úterý:
 8:00 - 16:00
@@ -698,10 +697,10 @@ středa:
 pátek:
 8:00 - 16:00
 sobota:
-neděle:","[‘312267917', 'info@spod.cz', 'http://www.spod.cz']",50.1423797,14.0762511
-raná péče,Raná péče (9184002),"Vyšší odborná škola, Střední škola, Základní škola a Mateřská škola, Hradec Králové, Štefánikova 549","Štefánikova 549/27, Moravské Předměstí, 500 11 Hradec Králové 11",62690361,Raná péče pro sluchově postižené Duháček,Mgr. Bc. Iva Rindová,"Štefánikova 549/27, Moravské Předměstí, 50011 ","Štefánikova 549/27, Moravské Předměstí, 500 11 Hradec Králové 11",1.6.2017,ambulantní,"rodiny s dítětem/dětmi
-Rodiny s dítětem se sluchovým postižením.",- děti do 7 let věku,"počet klientů - 6
-(okamžitá kapacita)","pondělí:
+neděle:";[‘312267917', 'info@spod.cz', 'http://www.spod.cz'];50.1423797;14.0762511
+Raná péče (9184002);Vyšší odborná škola, Střední škola, Základní škola a Mateřská škola, Hradec Králové, Štefánikova 549;Štefánikova 549/27, Moravské Předměstí, 500 11 Hradec Králové 11;62690361;Raná péče pro sluchově postižené Duháček;Mgr. Bc. Iva Rindová;Štefánikova 549/27, Moravské Předměstí, 50011;Štefánikova 549/27, Moravské Předměstí, 500 11 Hradec Králové 11;1.6.2017;ambulantní;"rodiny s dítětem/dětmi
+Rodiny s dítětem se sluchovým postižením.";- děti do 7 let věku;"počet klientů - 6
+(okamžitá kapacita)";"pondělí:
 7:00 - 16:00
 úterý:
 7:00 - 16:00
@@ -712,15 +711,15 @@ středa:
 pátek:
 7:00 - 16:00
 sobota:
-neděle:","[‘495272398', 'iva.rindova@neslhk.com', 'https://neslhk.com']",50.1840964,15.8376909
-raná péče,Raná péče (8037754),"Základní škola a Mateřská škola a poskytovatel sociálních služeb, Kaňka o.p.s.","Helsinská 2731, Tábor, 390 05 Tábor 5",28090080,"Základní škola a Mateřská škola a poskytovatel sociálních služeb, Kaňka o.p.s.",Mgr. Irena Lintnerová,"Helsinská 2731, Tábor, 390 05","Helsinská 2731, Tábor, 390 05 Tábor 5",1.1.2012,ambulantní,"osoby s jiným zdravotním postižením
+neděle:";[‘495272398', 'iva.rindova@neslhk.com', 'https://neslhk.com'];50.1840964;15.8376909
+Raná péče (8037754);Základní škola a Mateřská škola a poskytovatel sociálních služeb, Kaňka o.p.s.;Helsinská 2731, Tábor, 390 05 Tábor 5;28090080;Základní škola a Mateřská škola a poskytovatel sociálních služeb, Kaňka o.p.s.;Mgr. Irena Lintnerová;Helsinská 2731, Tábor, 390 05;Helsinská 2731, Tábor, 390 05 Tábor 5;1.1.2012;ambulantní;"osoby s jiným zdravotním postižením
 osoby s kombinovaným postižením
 osoby s mentálním postižením
 osoby s tělesným postižením
 osoby se sluchovým postižením
 osoby se zdravotním postižením
-osoby se zrakovým postižením",do 7 let věku,"počet klientů - 7
-Jedná se o kapacitu v daný okamžik.","pondělí:
+osoby se zrakovým postižením";do 7 let věku;"počet klientů - 7
+Jedná se o kapacitu v daný okamžik.";"pondělí:
 8:00 - 18:00
 úterý:
 8:00 - 18:00
@@ -729,4 +728,4 @@ středa:
 čtvrtek:
 pátek:
 sobota:
-neděle:","[‘381212872', 'info@kanka.info', 'https://www.kanka.info]",49.387729,14.6886787
+neděle:";[‘381212872', 'info@kanka.info', 'https://www.kanka.info];49.387729;14.6886787
