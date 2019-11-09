@@ -8,6 +8,7 @@ import datetime
 from functools import lru_cache
 
 #funkce pro spojení s databází
+#export DATABASE_URL=postgres://dbhxhmtwzzbvaj:3380a42d9f11c4ee1378d5816f30b9e3b103958212a1c968d6c2fcc97274f79f@ec2-54-246-92-116.eu-west-1.compute.amazonaws.com:5432/d18snuuetbnac7
 
 def get_db():
     """ Connection with database. """
