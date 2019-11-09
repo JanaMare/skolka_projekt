@@ -17,6 +17,10 @@ def ranapece():
 def skolky():
     return render_template('skolky.html')
 
+@app.route('/odlehcovaci_pece/')
+def odlehcovaci_pece():
+    return render_template('odlehcovaci_pece.html')
+
 @app.route('/skolky/', methods=['POST'])
 def skolky_post():
  if request.method == 'POST':
