@@ -8,7 +8,7 @@
           <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
         </head>
     <header>
-      <div class="container">
+      <div class="container offset-1">
         <h1 class="logo"><a href="{{ url_for('home') }}"><img src="http://skolky01.herokuapp.com/static/logo.png" style="width:80px;height:40px;" alt="logo"/></a></h1>
         <h4> Portál pro rodiče dětí se speciálními potřebami</h4>
         <strong><nav>
@@ -23,8 +23,8 @@
         </nav></strong>
       </div>
     </header>
-    <div class="container">
-      <div class="row">
+    <div class="container - fluid">
+      <div class="row img-fluid">
         <img src="http://skolky01.herokuapp.com/static/child.png" style = "width:50%; height: 50% " class="img-fluid" alt="Responsive image">
       </div>
     </div>
