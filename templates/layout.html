@@ -8,20 +8,27 @@
           <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
         </head>
     <header>
-      <div class="container offset-1">
-        <h1 class="logo"><a href="{{ url_for('home') }}"><img src="http://skolky01.herokuapp.com/static/logo.png" style="width:80px;height:40px;" alt="logo"/></a></h1>
-        <h4> SpeciálníŠkolky</h4>
-          
-      <strong><nav>
-          <ul class="menu">
-            <li><a href="{{ url_for('home') }}">Úvod</a></li>
-            <li><a href="{{ url_for('skolky') }}">Školky</a></li>
-            <li><a href="{{ url_for('ranapece') }}">Raná péče</a></li>
-            <li><a href="{{ url_for('odlehcovaci_pece') }}">Odlehčovací péče</a></li>
-            <li><a href="{{ url_for('tabulka_skolky') }}">tabulka_skolky</a></li>
-          </ul>
-        </nav></strong>
-      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <h1 class="logo"><a href="{{ url_for('home') }}"><img src="http://skolky01.herokuapp.com/static/logo.png" style="width:80px;height:40px;" alt="logo"/></a></h1>
+            </div>
+            <div class="col-3">
+              <h4> SpeciálníŠkolky</h4>
+            </div>
+            <div class="col-7">  
+              <strong><nav>
+                <ul class="menu">
+                  <li><a href="{{ url_for('home') }}">Úvod</a></li>
+                  <li><a href="{{ url_for('skolky') }}">Školky</a></li>
+                  <li><a href="{{ url_for('ranapece') }}">Raná péče</a></li>
+                  <li><a href="{{ url_for('odlehcovaci_pece') }}">Odlehčovací péče</a></li>
+                  <li><a href="{{ url_for('tabulka_skolky') }}">tabulka_skolky</a></li>
+                </ul>
+              </nav></strong>
+            </div>
+          </div>  
+        </div>
     </header>
     <div class="container - fluid">
       <div class="row img-fluid">
