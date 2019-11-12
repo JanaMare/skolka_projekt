@@ -1,13 +1,16 @@
 {% extends "layout.html" %} 
 {% block content %}
 
-  <div class="skolky">
+
+  <div class="skolky offset-1">
     <form method="POST" action="{{url_for('skolky_post')}}">
 
       <div class='jumbotron'style="background-color:#fff">
+          <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+          <script type="text/javascript">Loader.load()</script>
     <h1>Školky</h1>
 
-    <div class="form-group">
+    <div class="form-group-6">
       <label for="exampleFormControlSelectCity">Město</label>
       <select class="form-control" id="exampleFormControlSelectCity" name='city'>
         <option value="">Město</option>
