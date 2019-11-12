@@ -51,20 +51,51 @@ def skolky_vyhladavanie(inazev, postizeni, mesto, ulice):
     skolky.id_skolky AS id_skolky,
     skolky.typ_postizeni AS typ_postizeni,
     skolky.mesto, 
-    skolky.ulice
+    skolky.ulice,
+    skolky.lng,
+    skolky.lat
     from public.skolky_postizeni
     left join public.skolky on skolky_postizeni.id_skolky = skolky.id_skolky
     where skolky_postizeni.id_typ IN (SELECT id FROM druhy WHERE typ IN %s)
     """
+    params= [tuple(postizeni)]
+
+    if mesto: 
+      sql = sql + " and skolky.mesto = %s"
+      params.append(mesto)
+
+
     conn = get_db()
     try:
         cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
-        cur.execute(sql, (tuple(postizeni),))
+        cur.execute(sql, tuple(params))
+        expectation_table = cur.fetchall()
+        #print(expectation_table)
+        return expectation_table
+    finally:
+        if conn is not None:
+            conn.close()
+
+def skolky_mesto():
+    sql = """
+    SELECT 
+    mesto
+    
+    from public.adresa_skolky
+    GROUP BY mesto
+    ORDER BY mesto ASC
+  
+    """
+    conn = get_db()
+    try:
+        cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
+        cur.execute(sql)
         expectation_table = cur.fetchall()
         print(expectation_table)
         return expectation_table
     finally:
         if conn is not None:
             conn.close()
+
 
 

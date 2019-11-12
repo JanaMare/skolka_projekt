@@ -6,8 +6,6 @@
     <form method="POST" action="{{url_for('skolky_post')}}">
 
       <div class='jumbotron'style="background-color:#fff">
-          <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
-          <script type="text/javascript">Loader.load()</script>
     <h1>Školky</h1>
 
     <div class="form-group-6">
@@ -15,7 +13,7 @@
       <select class="form-control" id="exampleFormControlSelectCity" name='city'>
         <option value="">Město</option>
         {% for item in city %}
-          <option>{{ item.city_part }}</option>
+          <option>{{ item.mesto }}</option>
         {% endfor %}  
       </select>
     </div>
@@ -62,20 +60,6 @@
   </form>
     </div>
   </div>
-  <div id="mapa" style="width:100%; height:400px;"></div>
-   <script type="text/javascript">
-     var stred = SMap.Coords.fromWGS84(14.41, 50.08);
-     var mapa = new SMap(JAK.gel("mapa"), stred, 12);
-     mapa.addDefaultLayer(SMap.DEF_BASE).enable();
-     mapa.addDefaultControls();
-     var layer = new SMap.Layer.Marker();
-     mapa.addLayer(layer);
-     layer.enable();
-     var options = {};
-     //vytvoří marker na souřadnicich v te promene var center a vloží ho do mapy
-     {% for item in search %}
-     layer.addMarker(new SMap.Marker(SMap.Coords.fromWGS84({{item.longitude}}, {{item.latitude}}), "myMarker", options));	      	      
-     {% endfor %}
-   </script>
+
     
 {% endblock %}

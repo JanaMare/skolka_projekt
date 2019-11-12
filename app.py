@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from databaza import get_activities
+from databaza import skolky_mesto
 import databaza
 
 app = Flask(__name__)
@@ -15,7 +16,7 @@ def ranapece():
 
 @app.route('/skolky/')
 def skolky():
-    return render_template('skolky.html')
+    return render_template('skolky.html', city=databaza.skolky_mesto())
 
 @app.route('/odlehcovaci_pece/')
 def odlehcovaci_pece():
@@ -25,7 +26,7 @@ def odlehcovaci_pece():
 def skolky_post():
  if request.method == 'POST':
     nazev= request.form.get("nazev")
-    mesto= request.form.get("mesto")
+    mesto= request.form.get("city")
     ulice= request.form.get("ulice")
     postizeni = []
     if "mentalni" in request.form:
@@ -97,8 +98,11 @@ def skolky_post():
       postizeni.append("hyperaktivita")
 
     expectation_table = databaza.skolky_vyhladavanie(nazev, postizeni, mesto, ulice)
-    print(expectation_table)
-    return render_template("skolky_search.html",
+    lngs = [ x["lng"] for x in expectation_table ]
+    lats = [ x["lat"] for x in expectation_table ]
+    center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
+
+    return render_template("skolky_search.html", center = center,
     expectation_table=expectation_table
     )
 @app.route('/skolka/<id>')
