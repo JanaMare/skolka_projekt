@@ -45,9 +45,9 @@ def tabulka_skolky():
 
 def skolky_vyhladavanie(inazev, postizeni, mesto, ulice):
     sql = """
-    SELECT 
-    skolky_postizeni.id_typ AS postizeni,
+    SELECT
     skolky.nazev AS nazev,
+    skolky_postizeni.id_typ AS postizeni,
     skolky.id_skolky AS id_skolky,
     skolky.typ_postizeni AS typ_postizeni,
     skolky.mesto, 
@@ -57,6 +57,7 @@ def skolky_vyhladavanie(inazev, postizeni, mesto, ulice):
     from public.skolky_postizeni
     left join public.skolky on skolky_postizeni.id_skolky = skolky.id_skolky
     where skolky_postizeni.id_typ IN (SELECT id FROM druhy WHERE typ IN %s)
+    order by skolky.mesto asc
     """
     params= [tuple(postizeni)]
 
@@ -91,7 +92,7 @@ def skolky_mesto():
         cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
         cur.execute(sql)
         expectation_table = cur.fetchall()
-        print(expectation_table)
+        #print(expectation_table)
         return expectation_table
     finally:
         if conn is not None:

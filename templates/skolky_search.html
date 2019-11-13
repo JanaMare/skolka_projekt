@@ -1,15 +1,34 @@
 {% extends "layout.html" %} {% block content %}
 <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
 <script type="text/javascript">Loader.load()</script>
-<div class="jumbotron">
+<div class="jumbotron"></div>
 
-    <header>
-<h1>
-    Špeciálne školky ktoré máme v databáze
-  </h1>
-      <p>
-          Na této stránce si můžete prohlédnout tabulku se všemi informacemi o všech náhradních rodinách, případně 
-      </p>
+  <header>
+    <h1>Speciální školky, které máme v databázi.</h1>
+  </header>
+
+  <body>
+      <div id="mapa" style="width:100%; height:400px;"></div>
+      <script type="text/javascript">
+        var coords = [
+        {% for item in expectation_table %}
+        SMap.Coords.fromWGS84({{item.lng}}, {{item.lat}}){% if not loop.last %},{% endif %}
+        {% endfor %}];
+        var mapa = new SMap(JAK.gel("mapa"));
+        stred_zoom = mapa.computeCenterZoom(coords);
+        mapa.setCenterZoom(stred_zoom[0], stred_zoom[1])
+        mapa.addDefaultLayer(SMap.DEF_BASE).enable();
+        mapa.addDefaultControls();
+        var layer = new SMap.Layer.Marker();
+        mapa.addLayer(layer);
+        layer.enable();
+        var options = {};
+        //vytvoří marker na souřadnicich v te promene var center a vloží ho do mapy
+        for (i = 0; i < coords.length; i++) {
+          layer.addMarker(new SMap.Marker(coords[i], "myMarker", options));	   
+        }
+      </script>
+
       <form method="GET">
           <table class="table table-hover">
               <thead>
@@ -38,27 +57,10 @@
               </tbody> 
           </table>
       </form>
-      <br>
-  </header>
-  <div id="mapa" style="width:100%; height:400px;"></div>
-  <script type="text/javascript">
-    var coords = [
-    {% for item in expectation_table %}
-    SMap.Coords.fromWGS84({{item.lng}}, {{item.lat}}){% if not loop.last %},{% endif %}
-    {% endfor %}];
-    var mapa = new SMap(JAK.gel("mapa"));
-    stred_zoom = mapa.computeCenterZoom(coords);
-    mapa.setCenterZoom(stred_zoom[0], stred_zoom[1])
-    mapa.addDefaultLayer(SMap.DEF_BASE).enable();
-    mapa.addDefaultControls();
-    var layer = new SMap.Layer.Marker();
-    mapa.addLayer(layer);
-    layer.enable();
-    var options = {};
-    //vytvoří marker na souřadnicich v te promene var center a vloží ho do mapy
-    for (i = 0; i < coords.length; i++) {
-      layer.addMarker(new SMap.Marker(coords[i], "myMarker", options));	   
-    }
-  </script>
-</div>
+
+
+
+  
+
+  </body>
 {% endblock %}
