@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html>
+<head> 
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <body>
-      <head>
-          <title>SpeciálníŠkolky</title>
-          <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
-          <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        </head>
-    <header>
-      <div class="container">
-          <div class="row">
-            <div class="col-2">
-              <h1 class="logo"><a href="{{ url_for('home') }}"><img src="http://skolky01.herokuapp.com/static/logo.png" style="width:80px;height:40px;" alt="logo"/></a></h1>
-            </div>
-            <div class="col-3">
-              <h4> SpeciálníŠkolky</h4>
-            </div>
-            <div class="col-7">
-              <strong>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="{{ url_for('home') }}"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="{{ url_for('home') }}">Úvod <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="{{ url_for('skolky') }}">školky</a>
-                        <a class="nav-item nav-link" href="{{ url_for('ranapece') }}">Raná péče</a>
-                        <a class="nav-item nav-link" href="{{ url_for('odlehcovaci_pece') }}">Odlehčovací péče</a>
-                        <a class="nav-item nav-link" href="{{ url_for('tabulka_skolky') }}">Tabulka skolky</a>
-                    </div>
-              </nav>
-            </strong>
-            </div>
-          </div>  
+    <title>SpeciálníŠkolky</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand uzke" href="{{ url_for('home') }}"><img src="/static/logo.png" class="img-fluid" alt="LOGO" width=80px></a>
+        <a class="navbar-brand" href="/"><h4>Speciální školky</h4></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-link" href="/index">Úvod</a>
+                </li>
+                <a class="nav-link" href="/skolky">Školky</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/ranapece">Raná péče</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/odlehcovaci_pece">Odlehčovací péče</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/tabulka_skolky">Tabulka školky</a>
+              </li>
+              </ul>
         </div>
-    </header>
-    <div class="container - fluid">
-      <div class="row img-fluid">
+    </nav>
+    <div class="row img">
         <img src="http://skolky01.herokuapp.com/static/child.png" style = "width:50%; height: 50% " class="img-fluid" alt="Responsive image">
       </div>
-    </div>
+
       {% block content %}
 
       {% endblock %}
