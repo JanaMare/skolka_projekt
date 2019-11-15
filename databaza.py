@@ -76,6 +76,9 @@ def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
         expectation_table = cur.fetchall()
         #print(expectation_table)
         return expectation_table
+    except Exception as err:
+        print(err)
+        print("Something is wrong in skolky_vyhladavanie")
     finally:
         if conn is not None:
             conn.close()
@@ -97,6 +100,9 @@ def skolky_mesto():
         expectation_table = cur.fetchall()
         #print(expectation_table)
         return expectation_table
+    except Exception as err:
+        print(err)
+        print("Something is wrong in skolky_mesto")
     finally:
         if conn is not None:
             conn.close()
@@ -124,6 +130,9 @@ def tabulka_skolky_detail(id_skolky):
         skolky_detail = cur.fetchone()
         print(skolky_detail)
         return skolky_detail
+    except Exception as err:
+        print(err)
+        print("Something is wrong in tabulka_skolky_detail")
     finally:
         if conn is not None:
             conn.close()
