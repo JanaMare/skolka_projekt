@@ -101,10 +101,10 @@ def skolky_post():
     lngs = [ x["lng"] for x in expectation_table ]
     lats = [ x["lat"] for x in expectation_table ]
     center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
-
-    return render_template("skolky_search.html", center = center,
+ return render_template("skolky_search.html", center = center,
     expectation_table=expectation_table
     )
+    
 @app.route('/skolka/<id>')
 def skolky_detail(id):
   return id
@@ -116,6 +116,14 @@ def tabulka_skolky ():
     return render_template("tabulka_skolky.html",
     expectation_table=expectation_table,
     )
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template("404.html")
+
+@app.errorhandler(500)
+def pagenot_found(e):
+    return render_template("500.html")
 
 if __name__ == '__main__':
     app.run(debug=True)

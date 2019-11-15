@@ -43,7 +43,7 @@ def tabulka_skolky():
     family_table = cur.fetchall()
     return family_table
 
-def skolky_vyhladavanie(inazev, postizeni, mesto, ulice):
+def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     sql = """
     SELECT
     skolky.nazev AS nazev,
