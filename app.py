@@ -113,12 +113,13 @@ def skolky_post():
 def skolka():
   return render_template("skolka.html")
     
-@app.route('/skolka/<int:id_skolky>', methods=['GET'])
+@app.route('/skolka/int:id_skolky', methods=['GET'])
 def skolky_detail(id_skolky):
    skolky_detail=databaza.tabulka_skolky_detail(id_skolky)
    return render_template("skolka.html",
-   skolky_detail=skolky_detail,
+   id_skolky=skolky_detail,
    )
+  
  
 @app.route('/takulka_skolky')
 def tabulka_skolky ():

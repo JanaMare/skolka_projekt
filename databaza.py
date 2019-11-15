@@ -59,7 +59,7 @@ def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     skolky.lat
     from public.skolky_postizeni
     left join public.skolky on skolky_postizeni.id_skolky = skolky.id_skolky
-    where skolky_postizeni.id_typ IN (SELECT id FROM druhy WHERE typ IN %s)
+    where skolky_postizeni.id_typ IN (SELECT druhy.id FROM public.druhy WHERE typ IN %s)
     order by skolky.mesto asc
     """
     params= [tuple(postizeni)]
