@@ -42,6 +42,9 @@
                       <th scope="col">typ postizeni</th>
                       <th scope="col">mesto</th>
                       <th scope="col">ulica</th>
+                      <th scope="col">e-mail</th>
+                      <th scope="col">web</th>
+                      <th scope="col">kontakt</th>
                   </tr>
               </thead>
               <tbody>
@@ -53,6 +56,9 @@
                           <td>{{ x.typ_postizeni }}</td>
                           <td>{{ x.mesto }}</td>
                           <td>{{ x.ulice }}</td>
+                          <td>{{ x.mail }}</td> 
+                          <td>{{ x.web }}</td>
+                          <td>{{ x.kontakt }}</td> 
                           <td><a href="{{ url_for('skolky_detail', id=x.id_skolky) }}">Detail</a></td>
                   </tr>
                   {% endfor %}

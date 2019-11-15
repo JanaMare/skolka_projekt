@@ -52,6 +52,9 @@ def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     skolky.typ_postizeni AS typ_postizeni,
     skolky.mesto, 
     skolky.ulice,
+    skolky.web,
+    skolky.mail,
+    skolky.kontakt,
     skolky.lng,
     skolky.lat
     from public.skolky_postizeni
@@ -98,5 +101,31 @@ def skolky_mesto():
         if conn is not None:
             conn.close()
 
+def tabulka_skolky_detail(id_skolky):
+    sql = """
+    SELECT skolky.nazev,
+    skolky.id_skolky,
+    skolky.ulice,
+    skolky.mesto,
+    skolky.psc,
+    skolky.typ,
+    skolky.mail,
+    skolky.kontakt,
+    skolky.web,
+    skolky.typ_postizeni
+    from public.skolky
+    where id_skolky= %s
+
+    """
+    conn = get_db()
+    try:
+        cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
+        cur.execute(sql, (id_skolky,))
+        skolky_detail = cur.fetchone()
+        print(skolky_detail)
+        return skolky_detail
+    finally:
+        if conn is not None:
+            conn.close()
 
 

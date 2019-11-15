@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request
 from databaza import get_activities
 from databaza import skolky_mesto
-import databaza
+from databaza import tabulka_skolky_detail
+import databaza 
 
 app = Flask(__name__)
 
@@ -28,6 +29,9 @@ def skolky_post():
     nazev= request.form.get("nazev")
     mesto= request.form.get("city")
     ulice= request.form.get("ulice")
+    mail= request.form.get("mail")
+    web= request.form.get("web")
+    kontakt= request.form.get("kontakt")
     postizeni = []
     if "mentalni" in request.form:
       postizeni.append("mentalni")
@@ -104,10 +108,17 @@ def skolky_post():
  return render_template("skolky_search.html", center = center,
     expectation_table=expectation_table
     )
+
+@app.route('/skolka/')
+def skolka():
+  return render_template("skolka.html")
     
-@app.route('/skolka/<id>')
-def skolky_detail(id):
-  return id
+@app.route('/skolka/<int:id_skolky>', methods=['GET'])
+def skolky_detail(id_skolky):
+   skolky_detail=databaza.tabulka_skolky_detail(id_skolky)
+   return render_template("skolka.html",
+   skolky_detail=skolky_detail,
+   )
  
 @app.route('/takulka_skolky')
 def tabulka_skolky ():
