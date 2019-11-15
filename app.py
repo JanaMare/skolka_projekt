@@ -109,15 +109,15 @@ def skolky_post():
     expectation_table=expectation_table
     )
 
-@app.route('/skolka/')
-def skolka():
-  return render_template("skolka.html")
+@app.route('/skolky_detail/')
+def skolkydetail():
+  return render_template("skolky_detail.html")
     
-@app.route('/skolka/int:id_skolky', methods=['GET'])
+@app.route('/skolky_detail/<id_skolky>', methods=['GET'])
 def skolky_detail(id_skolky):
    skolky_detail=databaza.tabulka_skolky_detail(id_skolky)
-   return render_template("skolka.html",
-   id_skolky=skolky_detail,
+   return render_template("skolky_detail.html",
+   id_skolky=skolky_detail, skolky_detail=skolky_detail,
    )
   
  
