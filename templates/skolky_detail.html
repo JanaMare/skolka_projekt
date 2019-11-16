@@ -5,9 +5,20 @@
 <div class="container">
     <div class="jumbotron">
         <header>
-          <h1>Detail školky</h1>
+          <h1>{{skolky_detail.nazev}}</h1>
         </header>
-        <p>nazev: {{skolky_detail.nazev}}</p>
+        <p>Typ školky:{{skolky_detail.typ}}</p>
+      </br>
+        <p><strong>Adresa školky</strong></p>
+        <p>{{skolky_detail.mesto}}</p>
+        <p>{{skolky_detail.ulice}}</p>
+        
+      </br>
+      <p><strong>Kontaktne údaje:</strong></p>
+    
+        <p>e-mail: {{skolky_detail.mail}}</p>
+        <p><a href="{{skolky_detail.web}}">{{skolky_detail.web}}</a></p>
+        <p>telefón: {{skolky_detail.kontakt}}</p>
 
         {% endblock %}
           
