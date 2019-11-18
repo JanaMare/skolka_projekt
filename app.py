@@ -121,7 +121,7 @@ def skolky_detail(id_skolky):
    )
   
  
-@app.route('/takulka_skolky')
+@app.route('/tabulka_skolky')
 def tabulka_skolky ():
     expectation_table = databaza.tabulka_skolky()
     print(expectation_table)
