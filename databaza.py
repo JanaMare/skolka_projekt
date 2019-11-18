@@ -46,35 +46,36 @@ def tabulka_skolky():
 def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     sql = """
     SELECT
-    skolky.nazev AS nazev,
-    skolky_postizeni.id_typ AS postizeni,
-    skolky.id_skolky AS id_skolky,
-    skolky.typ_postizeni AS typ_postizeni,
-    skolky.mesto, 
-    skolky.ulice,
-    skolky.web,
-    skolky.mail,
-    skolky.kontakt,
+    skolky.nazev,
+    adresa_skolky.ulice as ulice,
+    adresa_skolky.mesto as mesto,
+    skolky.id_skolky,
+    skolky.lat,
     skolky.lng,
-    skolky.lat
+    skolky.mail,
+    skolky.web,
+    skolky.kontakt,
+    skolky_postizeni.id_typ as postizeni,
+    druhy.id,
+    druhy.typ
     from public.skolky_postizeni
-    left join public.skolky on skolky_postizeni.id_skolky = skolky.id_skolky
-    where skolky_postizeni.id_typ IN (SELECT druhy.id FROM public.druhy WHERE typ IN %s)
-    order by skolky.mesto asc
+    left join public.skolky on skolky_postizeni.id_skolky= skolky.id_skolky
+    left join public.adresa_skolky on skolky_postizeni.id_skolky=adresa_skolky.id_skolky
+    left join public.druhy on skolky_postizeni.id_typ = druhy.id
+    where adresa_skolky.mesto = '%s' and skolky_postizeni.id_typ IN (SELECT druhy.id FROM public.druhy WHERE typ = '%s')
     """
     params= [tuple(postizeni)]
 
-    if mesto: 
-      sql = sql + " and skolky.mesto = %s"
-      params.append(mesto)
 
-
+    #if mesto: 
+     #sql = sql + "adresa_skolky.mesto = %s"
+       
     conn = get_db()
     try:
         cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
         cur.execute(sql, tuple(params))
         expectation_table = cur.fetchall()
-        #print(expectation_table)
+        print(expectation_table)
         return expectation_table
     finally:
         if conn is not None:
@@ -83,7 +84,7 @@ def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
 def skolky_mesto():
     sql = """
     SELECT 
-    mesto
+    adresa_skolky.mesto
     
     from public.adresa_skolky
     GROUP BY mesto

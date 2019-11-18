@@ -102,10 +102,10 @@ def skolky_post():
       postizeni.append("hyperaktivita")
 
     expectation_table = databaza.skolky_vyhladavanie(nazev, postizeni, mesto, ulice)
-    lngs = [ x["lng"] for x in expectation_table ]
-    lats = [ x["lat"] for x in expectation_table ]
-    center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
- return render_template("skolky_search.html", center = center,
+    #lngs = [ x["lng"] for x in expectation_table ]
+    #lats = [ x["lat"] for x in expectation_table ]
+    #center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
+ return render_template("skolky_search.html",
     expectation_table=expectation_table
     )
 
