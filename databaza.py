@@ -62,18 +62,18 @@ def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     left join public.skolky on skolky_postizeni.id_skolky= skolky.id_skolky
     left join public.adresa_skolky on skolky_postizeni.id_skolky=adresa_skolky.id_skolky
     left join public.druhy on skolky_postizeni.id_typ = druhy.id
-    where adresa_skolky.mesto = '%s' and skolky_postizeni.id_typ IN (SELECT druhy.id FROM public.druhy WHERE typ = '%s')
+    where adresa_skolky.mesto in %s and skolky_postizeni.id_typ IN (SELECT druhy.id FROM public.druhy WHERE typ in %s)
     """
-    params= [tuple(postizeni)]
-
+    #params=[tuple(mesto),tuple(postizeni)]
 
     #if mesto: 
-     #sql = sql + "adresa_skolky.mesto = %s"
-       
+    #sql = sql + "adresa_skolky.mesto = %s"
+    #params.append(mesto) 
+
     conn = get_db()
     try:
         cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
-        cur.execute(sql, tuple(params))
+        cur.execute(sql, (mesto, postizeni))
         expectation_table = cur.fetchall()
         print(expectation_table)
         return expectation_table

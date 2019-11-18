@@ -33,6 +33,7 @@ def skolky_post():
     web= request.form.get("web")
     kontakt= request.form.get("kontakt")
     postizeni = []
+    #mesto = []
     if "mentalni" in request.form:
       postizeni.append("mentalni")
       postizeni.append("mentálně")
