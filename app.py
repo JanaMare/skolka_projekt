@@ -33,6 +33,8 @@ def skolky_post():
     web= request.form.get("web")
     kontakt= request.form.get("kontakt")
     postizeni = []
+
+
     if "mentalni" in request.form:
       postizeni.append("mentalni")
       postizeni.append("mentálně")
@@ -100,14 +102,14 @@ def skolky_post():
       postizeni.append("adhd")
       postizeni.append("snizenim rozumovymi schopnostami")
       postizeni.append("hyperaktivita")
+ 
 
     expectation_table = databaza.skolky_vyhladavanie(nazev, postizeni, mesto, ulice)
     lngs = [ x["lng"] for x in expectation_table ]
     lats = [ x["lat"] for x in expectation_table ]
     center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
  return render_template("skolky_search.html", center = center,
-    expectation_table=expectation_table
-    )
+    expectation_table=expectation_table)
 
 @app.route('/skolky_detail/')
 def skolkydetail():
