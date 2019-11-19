@@ -1,5 +1,7 @@
 {% extends "layout.html" %} 
 {% block content %}
+<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+<script type="text/javascript">Loader.load()</script>
 <br>
 <br>
 <div class="container">
@@ -20,6 +22,30 @@
               </div>
           </div>
     </div>
+</div>
+<div class="container">
+    <div id="mapa" style="width:100%; height:400px;"></div>
+    <script type="text/javascript">
+      var coords = [
+      {% for item in skolky_detail %}
+      SMap.Coords.fromWGS84({{item.lng}}, {{item.lat}}){% if not loop.last %},{% endif %}
+      {% endfor %}];
+      var mapa = new SMap(JAK.gel("mapa"));
+      stred_zoom = mapa.computeCenterZoom(coords);
+      mapa.setCenterZoom(stred_zoom[0], stred_zoom[1])
+      mapa.addDefaultLayer(SMap.DEF_BASE).enable();
+      mapa.addDefaultControls();
+      var layer = new SMap.Layer.Marker();
+      mapa.addLayer(layer);
+      layer.enable();
+      var options = {};
+      //vytvoří marker na souřadnicich v te promene var center a vloží ho do mapy
+      for (i = 0; i < coords.length; i++) {
+        layer.addMarker(new SMap.Marker(coords[i], "myMarker", options));	   
+      }
+    </script>
+
+
 </div>
 
         {% endblock %}
