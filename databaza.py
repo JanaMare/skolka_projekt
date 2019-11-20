@@ -65,7 +65,7 @@ def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     """
     params= [tuple(postizeni)]
 
-    if mesto: 
+    if mesto:
       sql = sql + """ and adresa_skolky.mesto = %s"""
       params.append(mesto)
 
@@ -98,9 +98,9 @@ def skolky_mesto():
     try:
         cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
         cur.execute(sql)
-        expectation_table = cur.fetchall()
+        mesto_table = cur.fetchall()
         #print(expectation_table)
-        return expectation_table
+        return mesto_table
     except Exception as err:
         print(err)
         print("Something is wrong in skolky_mesto")
@@ -131,7 +131,7 @@ def tabulka_skolky_detail(id_skolky):
         cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
         cur.execute(sql, (id_skolky,))
         skolky_detail = cur.fetchone()
-        print(skolky_detail)
+        #print(skolky_detail)
         return skolky_detail
     except Exception as err:
         print(err)

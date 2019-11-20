@@ -122,7 +122,7 @@ def skolky_detail(id_skolky):
     lats = [ x["lat"] for x in skolky_detail ]
     center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
     return render_template("skolky_detail.html",
-    id_skolky=skolky_detail, skolky_detail=skolky_detail,
+    id_skolky=skolky_detail, skolky_detail=skolky_detail, center= center
     )
   
  
