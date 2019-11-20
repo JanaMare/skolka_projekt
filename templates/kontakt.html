@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h3>Kontaktný formulár</h3>
+<form action="{{ url_for('kontakt') }}" method="POST">
+  {{ form.csrf_token }}
+
+  <div class="form-group">
+    {{ form.name.label }}
+    {{ form.name(class='form-control') }}
+    {% for error in form.name.errors %}
+    <span style="color: red;">[{{ error }}]</span>
+    {% endfor %}
+  </div>
+
+  <div class="form-group">
+    {{ form.email.label }}
+    {{ form.email(class='form-control') }}
+    {% for error in form.email.errors %}
+    <span style="color: red;">[{{ error }}]</span>
+    {% endfor %}
+  </div>
+
+  <div class="form-group">
+    {{ form.subject.label }}
+    {{ form.subject(class='form-control') }}
+    {% for error in form.subject.errors %}
+    <span style="color: red;">[{{ error }}]</span>
+    {% endfor %}
+  </div>
+
+  <div class="form-group">
+    {{ form.message.label }}
+    {{ form.message(class='form-control') }}
+    {% for error in form.message.errors %}
+    <span style="color: red;">[{{ error }}]</span>
+    {% endfor %}
+  </div>
+
+  {{ form.submit(class='btn btn-success') }}
+  
+</form>
+
+{% endblock %}

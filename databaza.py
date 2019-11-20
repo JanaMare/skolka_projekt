@@ -34,15 +34,6 @@ def get_activities():
     cur.close()
     return activities
 
-def tabulka_skolky():
-    sql = """SELECT * 
-                 FROM public.skolky """
-    conn = get_db()
-    cur = conn.cursor()
-    cur.execute(sql)
-    family_table = cur.fetchall()
-    return family_table
-
 def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     sql = """
     SELECT
