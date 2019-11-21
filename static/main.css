@@ -74,3 +74,12 @@ h3 {
   color: #444;
   text-decoration: none;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
