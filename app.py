@@ -6,22 +6,26 @@ import databaza
 import os
 from flask import Flask, render_template, request, redirect
 from flask_mail import Mail, Message
-from form import ContactForm, csrf
-
+from form import ContactForm
+from wtforms import PasswordField
+from flask_wtf import FlaskForm, CsrfProtect
 mail = Mail()
 
 app = Flask(__name__)
-
+csrf = CsrfProtect()
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 csrf.init_app(app)
 
-app.config['MAIL_SERVER']='smtp.gmail.com'
+app.config['MAIL_SERVER']='smtp.seznam.cz'
 app.config['MAIL_PORT'] = 465
+
+
 app.config['MAIL_USERNAME'] = 'specialniskolky@gmail.com'
 app.config['MAIL_PASSWORD'] = '################'
+
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USE_SSL'] = True
+app.config['MAIL_USE_SSL'] = False
 
 mail.init_app(app)
 
@@ -66,6 +70,8 @@ def ranapece():
 def skolky():
     return render_template('skolky.html', city=databaza.skolky_mesto())
 
+
+
 @app.route('/odlehcovaci_pece/')
 def odlehcovaci_pece():
     return render_template('odlehcovaci_pece.html')
@@ -73,12 +79,12 @@ def odlehcovaci_pece():
 @app.route('/skolky/', methods=['POST'])
 def skolky_post():
  if request.method == 'POST':
-    nazev= request.form.get("nazev")
-    mesto= request.form.get("city")
-    ulice= request.form.get("ulice")
-    mail= request.form.get("mail")
-    web= request.form.get("web")
-    kontakt= request.form.get("kontakt")
+    nazev= request.form.get("nazev", False)
+    mesto= request.form.get("city", False)
+    ulice= request.form.get("ulice",False)
+    mail= request.form.get("mail", False)
+    web= request.form.get("web", False)
+    kontakt= request.form.get("kontakt", False)
     postizeni = []
 
 
@@ -172,16 +178,6 @@ def skolky_detail(id_skolky):
     id_skolky=skolky_detail, skolky_detail=skolky_detail, center= center
     )
 
-
- 
-@app.route('/tabulka_skolky')
-def tabulka_skolky ():
-    expectation_table = databaza.tabulka_skolky()
-    print(expectation_table)
-    return render_template("tabulka_skolky.html",
-    expectation_table=expectation_table,
-    )
-
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template("404.html")
@@ -189,6 +185,10 @@ def page_not_found(e):
 @app.errorhandler(500)
 def pagenot_found(e):
     return render_template("500.html")
+
+#@csrf.error_handler
+#def csrf_error(reason):
+   # return render_template('csfr_error.html', reason=reason)
 
 if __name__ == '__main__':
     app.run(debug=True)
