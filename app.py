@@ -172,12 +172,12 @@ def skolkydetail():
  
 @app.route('/skolky_detail/<id_skolky>', methods=['GET'])
 def skolky_detail(id_skolky):
-    skolky_detail=databaza.tabulka_skolky_detail(id_skolky)
-    lngs = [ x["lng"] for x in skolky_detail ] #pridala jsem souradnice
-    lats = [ x["lat"] for x in skolky_detail ]
-    center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
+    skolky_detail=databaza.tabulka_skolky_detail(id_skolky,)
+   # lngs = [ y["lng"] for y in skolky_detail ] #pridala jsem souradnice
+   # lats = [ y["lat"] for y in skolky_detail ]
+   # center = [(max(lngs)-min(lngs))/2 + min(lngs),(max(lats)-min(lats))/2 + min(lats)]
     return render_template("skolky_detail.html",
-    id_skolky=skolky_detail, skolky_detail=skolky_detail, center= center
+    id_skolky=skolky_detail, skolky_detail=skolky_detail,
     )
 
 #error handelers

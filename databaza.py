@@ -110,9 +110,7 @@ def tabulka_skolky_detail(id_skolky):
     skolky.mail,
     skolky.kontakt,
     skolky.web,
-    skolky.typ_postizeni,
-    skolky.lng,
-    skolky.lat
+    skolky.typ_postizeni
     from public.skolky
     where id_skolky= %s
 
