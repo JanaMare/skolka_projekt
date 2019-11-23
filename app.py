@@ -77,7 +77,8 @@ def skolky():
 
 @app.route('/odlehcovaci_pece/')
 def odlehcovaci_pece():
-    return render_template('odlehcovaci_pece.html')
+    tab_odlehcovaci = databaza.tab_odlehcovaci()
+    return render_template('odlehcovaci_pece.html', tab_odlehcovaci=tab_odlehcovaci)
 
 #skolky, vyhladavanie.. vyhladava podla name tag v html
 @app.route('/skolky/', methods=['POST'])

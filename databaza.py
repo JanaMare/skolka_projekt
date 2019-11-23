@@ -151,5 +151,26 @@ def tab_ranna_pece():
         if conn is not None:
             conn.close()
 
+def tab_odlehcovaci():
+    sql = """
+    SELECT
+    * 
+    from public.odlehcovacipece1;
+    """
+
+    conn = get_db()
+
+    try:
+        cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
+        cur.execute(sql)
+        odlehcovaci = cur.fetchall()
+        return odlehcovaci
+    except Exception as err:
+        print(err)
+        print("Something is wrong in tab_odlehcovaci")
+    finally:
+        if conn is not None:
+            conn.close()
+
 
 
