@@ -1,12 +1,12 @@
-from flask_wtf import FlaskForm, CSRFProtect
+from flask_wtf import FlaskForm, CsrfProtect
 from wtforms import StringField, TextAreaField, SubmitField
 from wtforms.validators import DataRequired, Email
 
-csrf = CSRFProtect()
+csrf = CsrfProtect()
 
 class ContactForm(FlaskForm):
-    name = StringField('Meno', validators=[DataRequired('Napíš tvoje meno')])
-    email = StringField('E-mail', validators=[DataRequired('E-mail kam chceč, aby sme ti odpovedali'),Email('E-mail musí mať platný formát.')])
+    name = StringField('Meno/Prezývka', validators=[DataRequired('Napíš tvoje meno')])
+    email = StringField('E-mail, ak chceš dostať odpoved')
     subject = StringField('Predmet', validators=[DataRequired('Predmet')])
     message = TextAreaField('Text správy', validators=[DataRequired('Text správy, ktorú nám chceš poslať.')])
     submit = SubmitField("Poslat")
