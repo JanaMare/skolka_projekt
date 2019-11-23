@@ -16,13 +16,16 @@
             </div>
             <div class="card-body bg-light">
                 <h5 class="card-title">Kontaktní údaje:</h5>
-                <p class="card-text"><i class="fa fa-envelope"></i> {{skolky_detail.mail}}</p>
+                <a class="link" href='mailto:{{skolky_detail.mail}}'><i class="fa fa-envelope"></i> {{skolky_detail.mail}}</p>
                 <p class="card-text"><i class="fa fa-phone"></i> {{skolky_detail.kontakt}}</p>
                 <a href="{{skolky_detail.web}}" class="card-link">{{skolky_detail.web}}</a>
               </div>
           </div>
     </div>
 </div>
+<span class="navbar-text">
+  <a class="link" href='mailto:specialniskolky@gmail.com'> <i class="fa fa-envelope-o"></i> Kontakt</a>
+</span>
 
         {% endblock %}
           
