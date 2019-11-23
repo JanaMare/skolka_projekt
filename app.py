@@ -61,12 +61,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    #print(get_activities())
+    #print(get_activities
     return render_template('index.html')
 
 @app.route('/ranapece/')
 def ranapece():
-    return render_template('ranapece.html')
+   tab_ranna_pece = databaza.tab_ranna_pece()
+   return render_template("ranapece.html", tab_ranna_pece=tab_ranna_pece)
+    
+
 
 @app.route('/skolky/')
 def skolky():
