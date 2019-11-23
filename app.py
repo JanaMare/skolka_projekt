@@ -5,57 +5,59 @@ from databaza import tabulka_skolky_detail
 import databaza 
 import os
 from flask import Flask, render_template, request, redirect
-from flask_mail import Mail, Message
-from form import ContactForm
-from wtforms import PasswordField
-from flask_wtf import FlaskForm, CsrfProtect
-mail = Mail()
+#from flask_mail import Mail, Message
+#from form import ContactForm
+#from wtforms import PasswordField
+#from flask_wtf import FlaskForm, CsrfProtect
+#mail = Mail()
 
 app = Flask(__name__)
-csrf = CsrfProtect()
-SECRET_KEY = os.urandom(32)
-app.config['SECRET_KEY'] = SECRET_KEY
-csrf.init_app(app)
 
-app.config['MAIL_SERVER']='smtp.seznam.cz'
-app.config['MAIL_PORT'] = 465
+#priprava na kontaktny formular
+#csrf = CsrfProtect()
+#SECRET_KEY = os.urandom(32)
+#app.config['SECRET_KEY'] = SECRET_KEY
+#csrf.init_app(app)
+
+#app.config['MAIL_SERVER']='smtp.seznam.cz'
+#app.config['MAIL_PORT'] = 465
 
 
-app.config['MAIL_USERNAME'] = 'specialniskolky@gmail.com'
-app.config['MAIL_PASSWORD'] = '################'
+#app.config['MAIL_USERNAME'] = 'specialniskolky@gmail.com'
+#app.config['MAIL_PASSWORD'] = '################'
 
-app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USE_SSL'] = False
+#app.config['MAIL_USE_TLS'] = True
+#app.config['MAIL_USE_SSL'] = False
 
-mail.init_app(app)
+#mail.init_app(app)
 
-@app.route('/kontakt', methods=['POST', 'GET'])
-def kontakt():
-    form = ContactForm()
-    if form.validate_on_submit():        
-        print('-------------------------')
-        print(request.form['name'])
-        print(request.form['email'])
-        print(request.form['subject'])
-        print(request.form['message'])       
-        print('-------------------------')
-        send_message(request.form)
-        return redirect('/success')    
+#@app.route('/kontakt', methods=['POST', 'GET'])
+#def kontakt():
+    #form = ContactForm()
+    #if form.validate_on_submit():        
+       # print('-------------------------')
+        #print(request.form['name'])
+        #print(request.form['email'])
+        #print(request.form['subject'])
+        #print(request.form['message'])       
+        #print('-------------------------')
+        #send_message(request.form)
+        #return redirect('/success')    
 
-    return render_template('kontakt.html', form=form)
+    #return render_template('kontakt.html', form=form)
 
-@app.route('/success')
-def success():
-    return render_template('index.html')
+#@app.route('/success')
+#def success():
+    #return render_template('index.html')
 
-def send_message(message):
-    print(message.get('name'))
+#def send_message(message):
+    #print(message.get('name'))
 
-    msg = Message(message.get('subject'), sender = message.get('email'),
-            recipients = ['id1@gmail.com'],
-            body= message.get('message')
-    )  
-    mail.send(msg)
+    #msg = Message(message.get('subject'), sender = message.get('email'),
+           # recipients = ['id1@gmail.com'],
+            #body= message.get('message')
+    #)  
+    #mail.send(msg)
 
 @app.route('/')
 def home():
@@ -70,21 +72,20 @@ def ranapece():
 def skolky():
     return render_template('skolky.html', city=databaza.skolky_mesto())
 
-
-
 @app.route('/odlehcovaci_pece/')
 def odlehcovaci_pece():
     return render_template('odlehcovaci_pece.html')
 
+#skolky, vyhladavanie.. vyhladava podla name tag v html
 @app.route('/skolky/', methods=['POST'])
 def skolky_post():
  if request.method == 'POST':
-    nazev= request.form.get("nazev", False)
-    mesto= request.form.get("city", False)
-    ulice= request.form.get("ulice",False)
-    mail= request.form.get("mail", False)
-    web= request.form.get("web", False)
-    kontakt= request.form.get("kontakt", False)
+    nazev= request.form.get("nazev")
+    mesto= request.form.get("city")
+    ulice= request.form.get("ulice")
+    mail= request.form.get("mail")
+    web= request.form.get("web")
+    kontakt= request.form.get("kontakt")
     postizeni = []
 
 
@@ -164,10 +165,11 @@ def skolky_post():
  return render_template("skolky_search.html", center = center,
     expectation_table=expectation_table)
 
+#zobrazenie detailu jednotlivej skolky
 @app.route('/skolky_detail/')
 def skolkydetail():
   return render_template("skolky_detail.html")
-    
+ 
 @app.route('/skolky_detail/<id_skolky>', methods=['GET'])
 def skolky_detail(id_skolky):
     skolky_detail=databaza.tabulka_skolky_detail(id_skolky)
@@ -178,6 +180,7 @@ def skolky_detail(id_skolky):
     id_skolky=skolky_detail, skolky_detail=skolky_detail, center= center
     )
 
+#error handelers
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template("404.html")
@@ -186,9 +189,9 @@ def page_not_found(e):
 def pagenot_found(e):
     return render_template("500.html")
 
-#@csrf.error_handler
+#@csfr.error_handler
 #def csrf_error(reason):
-   # return render_template('csfr_error.html', reason=reason)
+    #return render_template('csfr_error.html', reason=reason)
 
 if __name__ == '__main__':
     app.run(debug=True)
