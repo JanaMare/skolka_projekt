@@ -129,4 +129,27 @@ def tabulka_skolky_detail(id_skolky):
         if conn is not None:
             conn.close()
 
+#tabulka ranna pece skuska zatial
+def tab_ranna_pece():
+    sql = """
+    SELECT
+    * 
+    from public.rannak;
+    """
+
+    conn = get_db()
+
+    try:
+        cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
+        cur.execute(sql)
+        ranna_pece = cur.fetchall()
+        return ranna_pece
+    except Exception as err:
+        print(err)
+        print("Something is wrong in tab_ranna_pece")
+    finally:
+        if conn is not None:
+            conn.close()
+
+
 

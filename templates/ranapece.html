@@ -6,7 +6,45 @@
         <h1 class="black">Raná péče</h1>
         <h6 class="black">Rodinám dětí s postižením poskytují podporu a pomoc v domácím prostředí, aby svůj život zvládaly lépe.</h6>
       </div>
-
+      <body>
+     
+  </br>
+  </br>
+  </br>
+        <form method="GET">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">nazev</th>
+                        <th scope="col">Adresa</th>
+                        <th scope="col">Pocet luzek</th>
+                        <th scope="col">kontakt</th>
+                        <th scope="col">Provozni doba</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for x in tab_ranna_pece %}
+                    <tr>
+                            <td>{{ x.id }}</td>
+                            <td>{{ x.nazev_zarizeni_poskytovatele }}</td>
+                            <td>{{ x.adresa_zarizeni_poskytovatele }}</td>
+                            <td>{{ x.pocet_luzek }}</td>
+                            <td>{{ x.kontakt }}</td>
+                            <td>{{ x.provozni_doba}}</td>
+                            
+                    </tr>
+                    {% endfor %}
+  
+                </tbody> 
+            </table>
+        </form>
+  
+  
+  
+    
+  
+    </body>
 
 
 
