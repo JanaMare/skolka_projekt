@@ -119,7 +119,7 @@ def tabulka_skolky_detail(id_skolky):
         if conn is not None:
             conn.close()
 
-#tabulka ranna pece skuska zatial
+#tabulka ranna peceg
 def tab_ranna_pece():
     sql = """
     SELECT
@@ -141,6 +141,7 @@ def tab_ranna_pece():
         if conn is not None:
             conn.close()
 
+#vypis ranna pece detail
 def tab_ranna_detial(id):
     sql = """
     SELECT
@@ -166,6 +167,38 @@ def tab_ranna_detial(id):
     except Exception as err:
         print(err)
         print("Something is wrong in tab_ranna_detail")
+    finally:
+        if conn is not None:
+            conn.close()
+
+#vypis odlehcovaci pece detail
+def tab_odlehcovaci_detail(id):
+    sql = """
+    SELECT
+    odlehcovacipece1.id,
+    odlehcovacipece1.nazev,
+    odlehcovacipece1.ulice,
+    odlehcovacipece1.mesto,
+    odlehcovacipece1.psc,
+    odlehcovacipece1.vedouci_zarizeni,
+    odlehcovacipece1.forma,
+    odlehcovacipece1.pocetluzek,
+    odlehcovacipece1.provoznidoma,
+    odlehcovacipece1.telefon,
+    odlehcovacipece1.mail,
+    odlehcovacipece1.web
+    from public.odlehcovacipece1
+    where id= %s;
+    """
+    conn = get_db()
+    try:
+        cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
+        cur.execute(sql, (id,))
+        odlehcovaci_detail = cur.fetchone()
+        return odlehcovaci_detail
+    except Exception as err:
+        print(err)
+        print("Something is wrong in tab_odlehcovaci_detail")
     finally:
         if conn is not None:
             conn.close()

@@ -1,8 +1,5 @@
 from flask import Flask, render_template, request
-
-from databaza import skolky_mesto
-from databaza import tabulka_skolky_detail
-from databaza import tab_ranna_detial
+from databaza import tab_ranna_detial, tab_odlehcovaci_detail, tabulka_skolky_detail,skolky_mesto
 import databaza 
 import os
 from flask import Flask, render_template, request, redirect
@@ -79,7 +76,6 @@ def ranna_detail(id):
     ranna_detail = databaza.tab_ranna_detial(id,)
     return render_template("rannadetail.html", ranna_detail=ranna_detail, id=tab_ranna_detial,
     )
-    
 @app.route('/skolky/')
 def skolky():
     return render_template('skolky.html', city=databaza.skolky_mesto())
@@ -88,6 +84,16 @@ def skolky():
 def odlehcovaci_pece():
     tab_odlehcovaci = databaza.tab_odlehcovaci()
     return render_template('odlehcovaci_pece.html', tab_odlehcovaci=tab_odlehcovaci)
+
+@app.route('/odlehcovacidetail/')
+def odlehcovacidetail():
+  return render_template("odlehcovacidetail.html")
+
+@app.route('/odlehcovacidetail/<id>', methods=['GET'])
+def odlehcovaci_detail(id):
+    odlehcovaci_detail = databaza.tab_odlehcovaci_detail(id,)
+    return render_template("odlehcovacidetail.html", odlehcovaci_detail=odlehcovaci_detail, id=tab_odlehcovaci_detail,
+    )
 
 #skolky, vyhladavanie.. vyhladava podla name tag v html
 @app.route('/skolky/', methods=['POST'])

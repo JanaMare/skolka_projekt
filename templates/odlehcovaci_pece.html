@@ -31,7 +31,7 @@
                         <td>{{ x.telefon}}</td>
                         <td>{{ x.mail}}</td>
                         <td>{{ x.web}}</td>
-
+                        <td><a href="{{ url_for('odlehcovaci_detail', id=x.id) }}">Detail</a></td>
                         
                 </tr>
                 {% endfor %}
