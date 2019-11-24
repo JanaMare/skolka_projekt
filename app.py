@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request
-from databaza import get_activities
+
 from databaza import skolky_mesto
 from databaza import tabulka_skolky_detail
+from databaza import tab_ranna_detial
 import databaza 
 import os
 from flask import Flask, render_template, request, redirect
@@ -68,9 +69,17 @@ def home():
 def ranapece():
    tab_ranna_pece = databaza.tab_ranna_pece()
    return render_template("ranapece.html", tab_ranna_pece=tab_ranna_pece)
+
+@app.route('/rannadetail/')
+def rannadetail():
+  return render_template("rannadetail.html")
+
+@app.route('/rannadetail/<id>', methods=['GET'])
+def ranna_detail(id):
+    ranna_detail = databaza.tab_ranna_detial(id,)
+    return render_template("rannadetail.html", ranna_detail=ranna_detail, id=tab_ranna_detial,
+    )
     
-
-
 @app.route('/skolky/')
 def skolky():
     return render_template('skolky.html', city=databaza.skolky_mesto())
@@ -183,6 +192,8 @@ def skolky_detail(id_skolky):
     return render_template("skolky_detail.html",
     id_skolky=skolky_detail, skolky_detail=skolky_detail,
     )
+
+
 
 #error handelers
 @app.errorhandler(404)

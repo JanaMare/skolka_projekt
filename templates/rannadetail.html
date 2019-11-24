@@ -1,0 +1,27 @@
+{% extends "layout.html" %} 
+{% block content %}
+<!--<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+<script type="text/javascript">Loader.load()</script> -->
+<br>
+<br>
+<div class="container">
+    <div class="jumbotron" style="background-color:#fffafa">
+        <h2 class="display-5 text-left text-dark" >{{rannadetail.nazev_zarizeni_poskytovatele}}</h2>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Adresa školky:</h5>
+              <p class="card-text">{{rannadetial.adresa_zarizeni_poskytovatele}}</p>
+            </div>
+            <div class="card-body bg-light">
+                <h5 class="card-title">Kontaktní údaje:</h5>
+                <p class="card-text"><i class="fa fa-phone"></i> {{rannadetial.kontakt}}</p>
+                <h5 class="card-title">vek:</h5>
+                <p class="card-text">{{rannadetial.vekova_kategorie}}</p>
+                <h5 class="card-title">Vedúci:</h5>
+              <p class="card-text">{{rannadetial.vedouci_zarizeni}}</p>
+              </div>
+          </div>
+    </div>
+</div>
+
+        {% endblock %}
