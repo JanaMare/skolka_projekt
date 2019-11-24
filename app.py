@@ -199,3 +199,8 @@ def pagenot_found(e):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+@app.route('/about')
+def about():
+    #print(get_activities)
+    return render_template('about.html')
