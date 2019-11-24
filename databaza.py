@@ -20,20 +20,8 @@ def get_db():
         g.db = con
     return g.db
 
-def get_activities():
-    #spojení s databází, linka mezi flaskem a mým počítačem
-    db = get_db()
-    #cursor = spouští sql dotazy, cursor() je součástí knihovny psychopg2, cursor mají všechny py knihovny s různými
-    #databázemi PostgreSQL není databáze ale db ms = database management system
-    cur = db.cursor()
-    cur.execute('SELECT * FROM public.skolky limit 10;')
-    #cursor vrátí všechny záznamy dle sql dotazu a mám je u sebe a je třeba si o ně říci
-    #fetchall() vrátí seznam všech řádků, fetchone() vrátí jeden řádek výsledků
-    activities = cur.fetchall()
-    #už po tobě nebudu chtít nic s tímto dotazem a s těmito výsledky
-    cur.close()
-    return activities
 
+#vyhladavanie v skolkach
 def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
     sql = """
     SELECT
@@ -75,6 +63,7 @@ def skolky_vyhladavanie(nazev, postizeni, mesto, ulice):
         if conn is not None:
             conn.close()
 
+#vrati zoznam miest, kde sa nachadzaju specialne skolky
 def skolky_mesto():
     sql = """
     SELECT 
@@ -99,6 +88,7 @@ def skolky_mesto():
         if conn is not None:
             conn.close()
 
+#vráti tabulku školky detail 
 def tabulka_skolky_detail(id_skolky):
     sql = """
     SELECT skolky.nazev,
@@ -151,6 +141,36 @@ def tab_ranna_pece():
         if conn is not None:
             conn.close()
 
+def tab_ranna_detial(id):
+    sql = """
+    SELECT
+    rannak.id as id,
+    rannak.nazev_zarizeni_poskytovatele as nazev,
+    rannak.ico,
+    rannak.vedouci_zarizeni,
+    rannak.adresa_zarizeni_poskytovatele as adresa,
+    rannak.vekova_kategorie as vek,
+    rannak.pocet_luzek,
+    rannak.provozni_doba,
+    rannak.kontakt
+    from public.rannak
+    where id= %s;
+
+    """
+    conn = get_db()
+    try:
+        cur = conn.cursor(cursor_factory = psycopg2.extras.RealDictCursor)
+        cur.execute(sql, (id,))
+        ranna_detail = cur.fetchone()
+        return ranna_detail
+    except Exception as err:
+        print(err)
+        print("Something is wrong in tab_ranna_detail")
+    finally:
+        if conn is not None:
+            conn.close()
+
+#tabulka odlehcovaci pece
 def tab_odlehcovaci():
     sql = """
     SELECT

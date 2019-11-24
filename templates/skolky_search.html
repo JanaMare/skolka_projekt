@@ -43,7 +43,6 @@
               <thead>
                   <tr>
                       <th scope="col">nazev</th>
-                      <th scope="col">typ postizeni</th>
                       <th scope="col">mesto</th>
                   </tr>
               </thead>
@@ -51,7 +50,6 @@
                   {% for x in expectation_table %}
                   <tr>
                           <td>{{ x.nazev }}</td>
-                          <td>{{ x.typ_postizeni }}</td>
                           <td>{{ x.mesto }}</td>
                           <td><a href="{{ url_for('skolky_detail', id_skolky=x.id_skolky) }}">Detail</a></td>
                   </tr>
