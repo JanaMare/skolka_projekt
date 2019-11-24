@@ -2,24 +2,22 @@
 {% block content %}
 
 
-      <div class="jumbotron" style="background-color:#fffafa">
+      <div class="jumbotron offset-2" style="background-color:#fffafa">
         <h1 class="black">Raná péče</h1>
         <h6 class="black">Rodinám dětí s postižením poskytují podporu a pomoc v domácím prostředí, aby svůj život zvládaly lépe.</h6>
       </div>
       <body>
-     
-  </br>
-  </br>
-  </br>
+        <div class="col-sm-8 offset-2" style="margin-top:20px ;">
         <form method="GET">
             <table class="table table-hover">
                 <thead>
                     <tr>
                         <th scope="col">Název</th>
                         <th scope="col">Adresa</th>
-                        <th scope="col">Počet lůžek</th>
-                        <th scope="col">Kontakt</th>
-                        <th scope="col">Provozní doba</th>
+                        <!-- <th scope="col">Počet lůžek</th> -->
+                        <!-- <th scope="col">Kontakt</th> -->
+                        <!-- <th scope="col">Provozní doba</th> -->
+                        <th scope="col">Detail</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -27,9 +25,9 @@
                     <tr>
                             <td>{{ x.nazev_zarizeni_poskytovatele }}</td>
                             <td>{{ x.adresa_zarizeni_poskytovatele }}</td>
-                            <td>{{ x.pocet_luzek }}</td>
-                            <td>{{ x.kontakt }}</td>
-                            <td>{{ x.provozni_doba}}</td>
+                            <!-- <td>{{ x.pocet_luzek }}</td> -->
+                            <!-- <td>{{ x.kontakt }}</td> -->
+                            <!-- <td>{{ x.provozni_doba}}</td> -->
                             <td><a href="{{ url_for('ranna_detail', id=x.id) }}">Detail</a></td>
                     </tr>
                     {% endfor %}
@@ -38,10 +36,11 @@
             </table>
         </form>
   
-  
+  </div>
   
     
-  
+<br>
+<br>  
     </body>
 
 

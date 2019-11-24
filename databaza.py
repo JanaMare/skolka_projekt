@@ -124,7 +124,8 @@ def tab_ranna_pece():
     sql = """
     SELECT
     * 
-    from public.rannak;
+    from public.rannak
+    order by rannak.nazev_zarizeni_poskytovatele;
     """
 
     conn = get_db()
@@ -208,7 +209,8 @@ def tab_odlehcovaci():
     sql = """
     SELECT
     * 
-    from public.odlehcovacipece1;
+    from public.odlehcovacipece1
+    order by odlehcovacipece1.mesto;
     """
 
     conn = get_db()

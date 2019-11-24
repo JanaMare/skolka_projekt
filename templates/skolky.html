@@ -4,27 +4,27 @@
 
   <div class="skolky offset-1">
     <form method="POST" action="{{url_for('skolky_post')}}">
-  
       <div class='jumbotron'style="background-color:#fffafa">
-    <h1>Školky</h1>
-
-    <div class="form-group-6">
-      <label for="exampleFormControlSelectCity">Město</label>
-      <select class="form-control" id="exampleFormControlSelectCity" name='city'>
-        <option value="">Město</option>
-        {% for item in city %}
-          <option>{{ item.mesto }}</option>
-        {% endfor %}  
-      </select>
+        <h1>Školky</h1>
+          <div class="form-group-6">
+            <label for="exampleFormControlSelectCity">Město</label>
+              <select class="form-control" id="exampleFormControlSelectCity" name='city'>
+              <option value="">Město</option>
+              {% for item in city %}
+              <option>{{ item.mesto }}</option>
+              {% endfor %}  
+              </select>
+          </div>
+      </div>
+    </div>  
+    <div class="container offset-1">
+    <h5>Vyberte typ postižení.</h5>
     </div>
-</div>
-    <p>Vyberte typ postižení.</p>
-    <div>
-      <div class="form-check form-check-inline">
+      <div class="form-check form-check-inline offset-1">
         <input class="form-check-input" type="checkbox" id="telesne" value="telesne" name="telesne" >
         <label class="form-check-label" for="telesne">Tělesné</label>
       </div>
-      <div class="form-check form-check-inline">
+      <div class="form-check form-check-inline ">
         <input class="form-check-input" type="checkbox" id="zrakove" value="zrakove" name="zrakove" >
         <label class="form-check-label" for="zrakove">Zrakové</label>
       </div>
@@ -38,7 +38,7 @@
       </div>
     </div>
     <div>
-        <div class="form-check form-check-inline">
+        <div class="form-check form-check-inline offset-1">
             <input class="form-check-input" type="checkbox" id="mentalni" value="mentalni" name="mentalni">
             <label class="form-check-label" for="mentalni">Mentální</label>
           </div>
@@ -57,7 +57,7 @@
     </div>
   </br>
     <div>
-    <button class="btn btn-outline-secondary" type="submit" value="search">Filtrovat</button>
+    <button class="btn btn-outline-secondary offset-1" type="submit" value="search">Filtrovat</button>
   </form>
     </div>
   </div>

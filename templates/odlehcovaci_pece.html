@@ -2,35 +2,37 @@
 {% block content %}
 
 
-      <div class="jumbotron" style="background-color:#fffafa">
+      <div class="jumbotron offset-2" style="background-color:#fffafa">
         <h1 class="black">Odlehčovací péče</h1>
         <h6 class="black">Cílem služby je umožnit pečující fyzické osobě nezbytný odpočinek.</h6>
       </div>
+      <div class="col-sm-8 offset-2" style="margin-top:20px ;">
       <form method="GET">
         <table class="table table-hover">
             <thead>
                 <tr>
                     <th scope="col">Název</th>
-                    <th scope="col">Ulice</th>
-                    <th scope="col">Mesto</th>
-                    <th scope="col">Psč</th>
-                    <th scope="col">Počet lůžek</th>
-                    <th scope="col">Telefón</th>
-                    <th scope="col">E-mail</th>
-                    <th scope="col">Web</th>
+                    <!-- <th scope="col">Ulice</th> -->
+                    <th scope="col">Město</th>
+                    <!-- <th scope="col">Psč</th> -->
+                    <!-- <th scope="col">Počet lůžek</th> -->
+                    <!-- <th scope="col">Telefon</th> -->
+                    <!-- <th scope="col">E-mail</th> -->
+                    <!-- <th scope="col">Web</th> -->
+                    <th scope="col">Detail</th>
                 </tr>
             </thead>
             <tbody>
                 {% for x in tab_odlehcovaci %}
                 <tr>
                         <td>{{ x.nazev }}</td>
-                        <td>{{ x.ulice }}</td>
-                        <td>{{ x.mesto}}</td>
-                        <td>{{ x.psc }}</td>
-                        <td>{{ x.pocetluzek}}</td>
-                        <td>{{ x.telefon}}</td>
-                        <td>{{ x.mail}}</td>
-                        <td>{{ x.web}}</td>
+                        <!-- <td>{{ x.ulice }}</td> -->
+                         <td>{{ x.mesto}}</td>
+                        <!-- <td>{{ x.psc }}</td> -->
+                        <!-- <td>{{ x.pocetluzek}}</td> -->
+                        <!-- <td>{{ x.telefon}}</td> -->
+                        <!-- <td>{{ x.mail}}</td> -->
+                        <!-- <td>{{ x.web}}</td> -->
                         <td><a href="{{ url_for('odlehcovaci_detail', id=x.id) }}">Detail</a></td>
                         
                 </tr>
@@ -38,6 +40,7 @@
 
             </tbody> 
         </table>
+      </div>
     </form>
 
 
