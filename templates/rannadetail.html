@@ -6,19 +6,21 @@
 <br>
 <div class="container">
     <div class="jumbotron" style="background-color:#fffafa">
-        <h2 class="display-5 text-left text-dark" >{{ranna_detail.nazev_zarizeni_poskytovatele}}</h2>
+        <h2 class="display-5 text-left text-dark" >{{ ranna_detail.nazev_zarizeni_poskytovatele }}</h2>
         <div class="card" style="width: 18rem;">
             <div class="card-body bg-light">
-              <h5 class="card-title">Adresa školky:</h5>
+              <h5 class="card-title">Adresa:</h5>
               <p class="card-text">{{ranna_detail.adresa_zarizeni_poskytovatele}}</p>
             </div>
             <div class="card-body bg-light">
                 <h5 class="card-title">Kontaktní údaje:</h5>
-                <p class="card-text"><i class="fa fa-phone"></i> {{ranna_detail.kontakt}}</p>
-                <h5 class="card-title">vek:</h5>
-                <p class="card-text">{{ranna_detail.vekova_kategorie}}</p>
+                <p class="card-text"><i class="fa fa-phone"></i> {{ ranna_detail.kontakt }}</p>
+                <p class="lead">Cílova skupina: {{ranna_detail.cilova_skupina_klientu}}</p>
+                <h5 class="card-title">Vek:</h5>
+                <p class="card-text">{{ ranna_detail.vekova_kategorie }}</p>
                 <h5 class="card-title">Vedúci:</h5>
-              <p class="card-text">{{ranna_detail.vedouci_zarizeni}}</p>
+              <p class="card-text">{{ ranna_detail.vedouci_zarizeni }}</p>
+              <p class="lead">ico: {{ranna_detail.ico}}</p>
               </div>
           </div>
     </div>
